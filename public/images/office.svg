@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1265" height="935" viewBox="0 0 1265 935">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c9d0f0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.757" y1="0.54" x2="0.102" y2="0.537" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c9d0f0"/>
+      <stop offset="1" stop-color="#c9d0f0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.243" y1="0.54" x2="0.898" y2="0.537" xlink:href="#linear-gradient-2"/>
+    <clipPath id="clip-OFFICE">
+      <rect width="1265" height="935"/>
+    </clipPath>
+  </defs>
+  <g id="OFFICE" clip-path="url(#clip-OFFICE)">
+    <rect width="1265" height="935" fill="#fff"/>
+    <g id="shared_background">
+      <path id="Path_19036" data-name="Path 19036" d="M1264.906,0-19-8,0,470.9-17,937.323H1264.906Z" transform="translate(0 -1)" fill="#cacfef"/>
+      <rect id="Rectangle_11626" data-name="Rectangle 11626" width="1138" height="393" transform="translate(59.239 200)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_11628" data-name="Rectangle 11628" width="260" height="430" transform="translate(1002.239 229)" fill="url(#linear-gradient-2)"/>
+      <path id="Subtraction_23" data-name="Subtraction 23" d="M-3241.667,1388h-443V940.091l10-4.091,11.345-39h421.654v491Z" transform="translate(3743.905 -729)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_4" data-name="Path 4" d="M3434.27,1650.987l-572.723,338.455L2285.08,1650.993,2857.8,1312.536Z" transform="translate(-2195.92 -1013.942)" fill="#a7b3dc"/>
+    </g>
+  </g>
+</svg>

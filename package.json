@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "check": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@kevinmarrec/nuxt-pwa": "^0.17.0",
+    "nuxt": "^3.7.4",
+    "prettier": "^3.0.0",
+    "vue": "^3.3.4"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "@pinia/nuxt": "^0.4.11",
+    "js-cookie": "^3.0.5",
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.1.4",
+    "privacy-consent-policy": "git+https://gitlab+deploy-token-1647071:F9UydydLXg3yxK6dYj7s@gitlab.com/tbtmarketing/privacy-consent-popup.git",
+    "sass": "^1.63.6",
+    "vue-plyr": "^7.0.0"
+  }
+}

@@ -29,7 +29,7 @@ ul {
     min-height: 3rem;
     strong {
       display: block;
-      font-size: 1.5rem;
+      font-size: 1rem;
       font-weight: 900;
     }
   }

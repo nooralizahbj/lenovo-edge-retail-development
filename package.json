@@ -10,7 +10,7 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@kevinmarrec/nuxt-pwa": "^0.17.0",
+    "@kevinmarrec/nuxt-pwa": "^0.0.2",
     "nuxt": "^3.7.4",
     "prettier": "^3.0.0",
     "vue": "^3.3.4"

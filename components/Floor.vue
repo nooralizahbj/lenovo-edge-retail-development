@@ -57,7 +57,7 @@
       >
         {{ floorControl }}
         <span class="floor__control-name">{{
-          ['Ground Floor', 'Store Front', 'Office Floor'][floorControl - 1]
+          ['Ground Floor', 'Store Front', 'Office Floor', 'Services For Retail'][floorControl - 1]
         }}</span>
       </button>
     </nav>

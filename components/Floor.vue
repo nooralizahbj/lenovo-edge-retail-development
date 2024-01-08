@@ -96,7 +96,7 @@
       </button>
     </nav>
 
-    <div class="floor__title">
+    <div class="floor__title" v-if="store.floor != 4">
       <h2>{{ title }}</h2>
       <p>
         <span class="non-touch">Click</span><span class="touch-only">Tap</span>
@@ -104,7 +104,27 @@
       </p>
     </div>
 
-    <div class="floor__image" ref="imageContainer" @click="clearHighlight">
+    <div class="floor__title" v-if="store.floor === 4">
+      <h2>{{ title }}</h2>
+      <p>
+        {{ description }}
+      </p>
+    </div>
+
+    <div class="floor__image" ref="imageContainer" @click="clearHighlight" v-if="store.floor != 4">
+      <img
+        :src="baseImage ?? `https://via.placeholder.com/1000`"
+        alt="Floor image"
+        ref="base"
+      />
+      <div
+        class="floor__highlights"
+        :id="`floor--${floor}__highlights`"
+        ref="highlights"
+      ></div>
+    </div>
+
+    <div class="floor__image_floor_4" ref="imageContainer" @click="clearHighlight" v-if="store.floor === 4">
       <img
         :src="baseImage ?? `https://via.placeholder.com/1000`"
         alt="Floor image"
@@ -397,6 +417,32 @@ export default {
       aspect-ratio: 1265/935;
     }
   }
+
+&__image_floor_4 {
+  grid-area: image;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: 0;
+  margin-top: -8rem;
+
+  @media (max-width: 920px) {
+    margin: -8rem 0 3rem -4rem;
+  }
+  @media (max-width: 700px) {
+    margin: -4rem -0.5rem 3rem -2rem;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    object-position: bottom center;
+    aspect-ratio: 1265/935;
+  }
+}
 
   &__highlights {
     position: absolute;

@@ -44,6 +44,40 @@
         </div>
       </aside>
     </transition>
+    <transition>
+      <aside class="floor__intro" v-if="store.floor === 4">
+        <div class="floor__intro-container">
+          <h1>Enter the future of retail</h1>
+              <p>
+                <b style="font-weight: 900;">Lenovo Services for Retail</b> unifies the power of hardware, software and services to deliver an experience that’s ready for the future of retail. Growing with your business, our unified solution simplifies and smooths your evolution to a seamless shopping experience your customers trust, and love.
+              </p>
+              <TickList
+                :items="[
+                  {
+                    title: 'Deploy seamlessly without hassle',
+                    description: 'Simple access to customized technology from day 1, from onsite device deployment and data migration to testing support - allowing you to begin revolutionizing your retail business with minimal to no disruption.',
+                  },
+                  {
+                    title: 'Optimize your resources with our management solutions',
+                    description: 'Outsource your day-to-day management of your IT tasks and functions with onsite field services, asset inventory and management, flex pool management and many more - so that your business can focus on what matters.',
+                  },
+                  {
+                    title: 'Always stay running at your best',
+                    description: 'Keep your devices performing at peak efficiency while optimizing your operations with our premier support service solutions, and minimize your operational downtime and maximize revenue.',
+                  },
+                  {
+                    title: 'Protect your business from digital threats',
+                    description: 'Defending your IT against tomorrow’s threats. From the factory, to supply, to the hands of your hybrid workforce.',
+                  },
+                  {
+                    title: 'Maximize your circularity',
+                    description: 'Lenovo solutions provide packaging collection, data backup and wiping, and recycling and disposal services so that you can minimize product and e-waste.',
+                  },
+                ]"
+              />
+        </div>
+      </aside>
+    </transition>
 
     <slot name="highlights" v-if="mounted" />
 

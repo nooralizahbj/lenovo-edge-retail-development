@@ -578,6 +578,7 @@
           v-if="store.floor === 4"
         >
           <template v-slot:highlights>
+                
           </template>
         </Floor>
       </Transition>

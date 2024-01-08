@@ -47,7 +47,16 @@
     <transition>
       <aside class="floor__intro" v-if="store.floor === 4">
         <div class="floor__intro-container">
-          <h1>Enter the future of retail</h1>
+            <div class="video-title">
+              <h1>Enter the future of retail</h1>
+              <div class="icon">
+                <VideoHighlightFloor4
+                  floor="4"
+                  videoUrl="/video/Lenovo NFR Animation 28122023.mp4"
+                  posterUrl="/images/LEN002-LNFR-Static 2.png"
+                />
+              </div>
+            </div>
               <p>
                 <b style="font-weight: 900;">Lenovo Services for Retail</b> unifies the power of hardware, software and services to deliver an experience that’s ready for the future of retail. Growing with your business, our unified solution simplifies and smooths your evolution to a seamless shopping experience your customers trust, and love.
               </p>
@@ -182,6 +191,14 @@ export default {
 </script>
 
 <style lang="scss">
+.video-title {
+  display: flex;
+
+  &__icon {
+    margin-top: 2rem;
+    margin-right: 1rem;
+  }
+}
 .floor {
   height: 100%;
   width: 100%;
@@ -422,7 +439,7 @@ export default {
     justify-content: center;
     margin-left: -8rem;
     margin-top: -6rem;
-    margin-right: -5rem;
+    margin-right: -4rem;
 
     @media (max-width: 920px) {
       margin: -8rem 0 3rem -4rem;

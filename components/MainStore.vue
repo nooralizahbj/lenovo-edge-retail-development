@@ -574,7 +574,7 @@
         <Floor
           title="Reimagine retail across every stage of your business"
           :floor="4"
-          baseImage="/images/LEN002-LNFR-Static 1.svg"
+          baseImage="/images/LEN002-LNFR-Static 2.png"
           v-if="store.floor === 4"
         >
           <template v-slot:highlights>

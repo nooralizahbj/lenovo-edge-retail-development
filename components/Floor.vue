@@ -130,11 +130,6 @@
         alt="Floor image"
         ref="base"
       />
-      <div
-        class="floor__highlights"
-        :id="`floor--${floor}__highlights`"
-        ref="highlights"
-      ></div>
     </div>
   </div>
 </template>
@@ -425,8 +420,8 @@ export default {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    margin-left: 0;
-    margin-top: 0;
+    margin-left: -8rem;
+    margin-top: -7rem;
     margin-right: -5rem;
 
     @media (max-width: 920px) {

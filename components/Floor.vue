@@ -418,31 +418,32 @@ export default {
     }
   }
 
-&__image_floor_4 {
-  grid-area: image;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  margin-left: 0;
-  margin-top: -8rem;
+  &__image_floor_4 {
+    grid-area: image;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: -5rem;
 
-  @media (max-width: 920px) {
-    margin: -8rem 0 3rem -4rem;
-  }
-  @media (max-width: 700px) {
-    margin: -4rem -0.5rem 3rem -2rem;
-  }
+    @media (max-width: 920px) {
+      margin: -8rem 0 3rem -4rem;
+    }
+    @media (max-width: 700px) {
+      margin: -3rem -3rem 3rem -2rem;
+    }
 
-  img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    object-position: bottom center;
-    aspect-ratio: 1265/935;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      object-position: bottom center;
+      aspect-ratio: 1265/935;
+    }
   }
-}
 
   &__highlights {
     position: absolute;

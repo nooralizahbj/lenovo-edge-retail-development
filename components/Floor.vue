@@ -421,7 +421,7 @@ export default {
     align-items: flex-end;
     justify-content: center;
     margin-left: -8rem;
-    margin-top: -7rem;
+    margin-top: -6rem;
     margin-right: -5rem;
 
     @media (max-width: 920px) {

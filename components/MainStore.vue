@@ -353,14 +353,14 @@
               x="71"
               y="65"
               floor="2"
-              videoUrl="/video/Lenovo - dynamic Pricing_ESL_Subbed - 04012024.mp4"
+              videoUrl="/video/Lenovo-dynamic_Pricing_ESL_Subbed-04012024.mp4"
               posterUrl="#"
             />
             <VideoHighlight
               x="50"
               y="32"
               floor="2"
-              videoUrl="/video/Lenovo_Digital Shelving_Subbed - 04012024.mp4"
+              videoUrl="/video/Lenovo_Digital_Shelving_Subbed-04012024.mp4"
               posterUrl="#"
             />
           </template>

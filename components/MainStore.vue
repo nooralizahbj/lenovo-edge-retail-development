@@ -350,10 +350,17 @@
               posterUrl="#"
             /> -->
             <VideoHighlight
-              x="31"
-              y="58"
+              x="71"
+              y="65"
               floor="2"
-              videoUrl="/video/Lenovo_Retail_Solutions_NRF_2023_NYC.mp4"
+              videoUrl="/video/Lenovo - dynamic Pricing_ESL_Subbed - 04012024.mp4"
+              posterUrl="#"
+            />
+            <VideoHighlight
+              x="50"
+              y="32"
+              floor="2"
+              videoUrl="/video/Lenovo_Digital Shelving_Subbed - 04012024.mp4"
               posterUrl="#"
             />
           </template>
@@ -579,6 +586,13 @@
         >
           <template v-slot:highlights>
                 
+            <VideoHighlightFloor4
+              x="55"
+              y="57"
+              floor="4"
+              videoUrl="/video/Lenovo NFR Animation 28122023.mp4"
+              posterUrl="/images/LEN002-LNFR-Static 2.png"
+            />
           </template>
         </Floor>
       </Transition>

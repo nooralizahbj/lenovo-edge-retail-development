@@ -45,9 +45,9 @@
       </aside>
     </transition>
     <transition>
-      <aside class="floor__intro" v-if="store.floor === 4">
+      <aside class="floor__intro" v-if="store.floor === 4 || !store.highlight">
         <div class="floor__intro-container">
-            <div class="video-title">
+            <!-- <div class="video-title">
               <h1>Enter the future of retail</h1>
               <div class="icon">
                 <VideoHighlightFloor4
@@ -56,7 +56,8 @@
                   posterUrl="/images/LEN002-LNFR-Static 2.png"
                 />
               </div>
-            </div>
+            </div> -->
+              <h1>Enter the future of retail</h1>
               <p>
                 <b style="font-weight: 900;">Lenovo Services for Retail</b> unifies the power of hardware, software and services to deliver an experience that’s ready for the future of retail. Growing with your business, our unified solution simplifies and smooths your evolution to a seamless shopping experience your customers trust, and love.
               </p>
@@ -139,6 +140,11 @@
         alt="Floor image"
         ref="base"
       />
+      <div
+        class="floor__highlights"
+        :id="`floor--${floor}__highlights`"
+        ref="highlights"
+      ></div>
     </div>
   </div>
 </template>

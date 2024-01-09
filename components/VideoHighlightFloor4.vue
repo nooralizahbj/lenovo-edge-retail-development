@@ -1,6 +1,33 @@
 <template>
-  <img style="cursor:pointer;margin-top: 2rem;
-    margin-right: 1rem;" src="/images/play.svg" @click="showVideoModal = true">
+  <Teleport :to="`#floor--${floor}__highlights`">
+    <button
+      class="highlight__vid-hotspot highlight__hotspot--interactive"
+      :style="{
+        left: `${x}%`,
+        top: `${y}%`,
+      }"
+      @click="showVideoModal = true"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xml:space="preserve"
+        x="0"
+        y="0"
+        version="1.1"
+        viewBox="0 0 989.3 1000"
+        style="background-color:white;border-radius:100%"
+      >
+        <path
+          d="M494.6 5.3C221.5 5.3 0 226.7 0 500c0 273.1 221.5 494.7 494.6 494.7 273.2 0 494.7-221.5 494.7-494.7 0-273.3-221.4-494.7-494.7-494.7zm0 934.4C251.8 939.7 55 742.8 55 500 55 257.1 251.8 60.3 494.6 60.3c242.9 0 439.7 196.8 439.7 439.7 0 242.8-196.8 439.7-439.7 439.7z"
+          fill="#E1251B"
+        />
+        <path
+          d="M494.6 115.3c-212.5 0-384.7 172.2-384.7 384.7s172.3 384.7 384.7 384.7c212.5 0 384.7-172.3 384.7-384.7.1-212.5-172.2-384.7-384.7-384.7zm186.2 404.1L542.9 599 405 678.6c-18.5 10.7-33.6 2-33.6-19.4V340.8c0-21.4 15.1-30.1 33.6-19.4L542.9 401l137.9 79.6c18.5 10.7 18.5 28.1 0 38.8z"
+          fill="#E1251B"
+        />
+      </svg>
+    </button>
+  </Teleport>
   <Teleport to="body">
     <div class="modal" v-if="showVideoModal">
       <div class="modal-content">
@@ -22,6 +49,8 @@ import 'vue-plyr/dist/vue-plyr.css'
 <script>
 export default {
   props: {
+    x: Number,
+    y: Number,
     floor: Number,
     videoUrl: String,
     posterUrl: String,

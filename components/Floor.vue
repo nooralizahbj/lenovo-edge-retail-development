@@ -3,7 +3,7 @@
     <div class="floor__aside-background"></div>
 
     <transition name="slide">
-      <aside class="floor__intro" v-if="!store.highlight">
+      <aside class="floor__intro" v-if="store.floor != 4 && !store.highlight">
         <div class="floor__intro-container">
           <h1>
             Together we build up a successful Digital Transformation journey.
@@ -45,7 +45,7 @@
       </aside>
     </transition>
     <transition>
-      <aside class="floor__intro" v-if="store.floor === 4 || !store.highlight">
+      <aside class="floor__intro" v-if="store.floor === 4 && !store.highlight">
         <div class="floor__intro-container">
             <!-- <div class="video-title">
               <h1>Enter the future of retail</h1>

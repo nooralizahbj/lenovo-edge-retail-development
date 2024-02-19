@@ -82,12 +82,12 @@
                   {
                     title: 'Efficient high-quality production with efficient decision-making',
                     description:
-                      'Our AI-powered Supply Chain Intelligence Solution lets you manage your entire supply chain operations on one centralized hub, allowing you to manage every aspect of your business from one integrated platform.',
+                      'Our AI-powered <strong>Supply Chain Intelligence</strong> Solution lets you manage your entire supply chain operations on one centralized hub, allowing you to manage every aspect of your business from one integrated platform.',
                   },
                   {
                     title: 'Proven and measurable supply chain optimization',
                     description:
-                      'When used together, our supply chain management solutions deliver multiple efficiency benefits: <br>- 60% reduction in decision making time <br>-20% cost reduction in manufacturing and logistics <br>-4.8% boost in revenue',
+                      'When used together, our <strong>supply chain management</strong> solutions deliver multiple efficiency benefits: <br>- 60% reduction in decision making time <br>-20% cost reduction in manufacturing and logistics <br>-4.8% boost in revenue',
                   },
                 ]"
               />
@@ -134,9 +134,9 @@
             </Highlight>
             <Highlight
               id="highlight--1-2"
-              :x="45"
-              :y="44"
-              :width="25"
+              :x="59"
+              :y="35"
+              :width="30"
               :floor="1"
               icon="/images/destop_warehouse-03-ani.gif"
               iconMobile="/images/mobile_warehouse-03-ani.gif"
@@ -152,7 +152,7 @@
                   {
                     title: '',
                     description:
-                      'Lenovo’s Pick Assist AMR intelligently plans the optimal routes to autonomously navigate through dynamic environments to serve your logistical needs at every stage of order fulfillment.',
+                      'Lenovo’s <strong>Pick Assist AMR</strong> intelligently plans the optimal routes to autonomously navigate through dynamic environments to serve your logistical needs at every stage of order fulfillment.',
                   },
                 ]"
               />
@@ -162,7 +162,7 @@
                   {
                     title: '',
                     description:
-                      'Our Pick Assist AMR technology delivers significant cost advantages by reducing labor costs, providing you with visible return on investments within 10 to 24 months.',
+                      'Our <strong>Pick Assist AMR</strong> technology delivers significant cost advantages by reducing labor costs, providing you with visible return on investments within 10 to 24 months.',
                   },
                 ]"
               />
@@ -172,7 +172,7 @@
                   {
                     title: '',
                     description:
-                      'Pick Assist AMR technology is ready to use out-of-the-box, providing you maximum convenience to begin optimizing your warehouse operations.',
+                      '<strong>Pick Assist AMR</strong> technology is ready to use out-of-the-box, providing you maximum convenience to begin optimizing your warehouse operations.',
                   },
                   {
                     title: '',

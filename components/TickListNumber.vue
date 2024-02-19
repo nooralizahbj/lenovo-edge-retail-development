@@ -1,15 +1,30 @@
 <template>
   <ul>
-    <li v-for="(item, index) in items" :key="index" v-bind:class="item.number">
+    <li v-for="(item, index) in items" :key="index" v-bind:class="item.number"
+        :id="`hotspot-${item.page}`"
+        :tabindex="nonInteractive ? -1 : 0"
+        :data-selected="store.highlight === item.page"
+        @click.stop="select"
+        :aria-label="label"
+        :aria-hidden="nonInteractive ? true : false"
+    >
       <strong>{{ item.title }}</strong>
     </li>
   </ul>
 </template>
 
 <script>
+import { useStore } from '~~/store/store'
 export default {
   props: {
     items: Array,
+  },
+
+  data() {
+    return {
+      store: useStore(),
+      mounted: false,
+    }
   },
 }
 </script>
@@ -28,6 +43,7 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
     &.num1 {
       background: url('/images/1.svg') top left no-repeat;
     }

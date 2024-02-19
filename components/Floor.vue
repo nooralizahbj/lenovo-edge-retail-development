@@ -32,74 +32,24 @@
           <TickListNumber
                 :items="[
                   {
+                    page:'highlight--1-1',
                     number: 'num1',
                     title: 'Smarter technology makes a sustainable difference',
                   },
                   {
+                    page:'highlight--1-2',
                     number: 'num2',
                     title:
                       'Robot automation designed to collaborate seamlessly with a human workforce',
                   },
                   {
+                    page:'highlight--1-3',
                     number: 'num3',
                     title:
                       'Scale round-the-clock vigilance for your organization',
                   },
                   {
-                    number: 'num4',
-                    title:
-                      'Centralize and automate supply chain management in one single hub',
-                  },
-                ]"
-              />
-        </div>
-      </aside>
-    </transition>
-
-    <transition name="slide">
-      <aside class="floor__intro" v-if="store.floor === 1 && !store.highlight">
-        <div class="floor__intro-container">
-          <h1>
-            Create a future-proof organization of productivity and sustainability with Lenovo Manufacturing Solutions
-          </h1>
-          <TickList
-                :items="[
-                  {
-                    title: '',
-                    description: 'Reduce labor costs by up to 80% and scheduling time by up to 83%.',
-                  },
-                  {
-                    title: '',
-                    description:
-                      'Achieve up to 60% reduction indecision making time when it comes to leading your business to the future.',
-                  },
-                  {
-                    title: '',
-                    description:
-                      'Create an environmentally conscious supply chain for a more sustainable future with Lenovo’s range of sustainability-driven technology and solutions.',
-                  },
-                ]"
-              />
-          <p>
-            Learn more about how Lenovo can help revolutionize your business by selecting an option below:
-          </p>
-          <TickListNumber
-                :items="[
-                  {
-                    number: 'num1',
-                    title: 'Smarter technology makes a sustainable difference',
-                  },
-                  {
-                    number: 'num2',
-                    title:
-                      'Robot automation designed to collaborate seamlessly with a human workforce',
-                  },
-                  {
-                    number: 'num3',
-                    title:
-                      'Scale round-the-clock vigilance for your organization',
-                  },
-                  {
+                    page:'highlight--1-4',
                     number: 'num4',
                     title:
                       'Centralize and automate supply chain management in one single hub',
@@ -139,25 +89,30 @@
           <TickListNumber
                 :items="[
                   {
+                    page:'highlight--2-5',
                     number: 'num1',
                     title: 'Harness the power of smart technology and AI to empower your store',
                   },
                   {
+                    page:'highlight--2-3',
                     number: 'num2',
                     title:
                       'Enhance your customer experience and prevent stock losses',
                   },
                   {
+                    page:'highlight--2-2',
                     number: 'num3',
                     title:
                       'Customer and store insights right at your fingertips',
                   },
                   {
+                    page:'highlight--2-4',
                     number: 'num4',
                     title:
                       'Retail made for the phygital age',
                   },
                   {
+                    page:'highlight--2-1',
                     number: 'num5',
                     title:
                       'Customer loyalty made dynamic',
@@ -197,20 +152,24 @@
           <TickListNumber
                 :items="[
                   {
+                    page:'highlight--3-3',
                     number: 'num1',
                     title: 'Accelerate purposeful innovation everywhere',
                   },
                   {
+                    page:'highlight--3-1',
                     number: 'num2',
                     title:
                       'Setting the standard in security',
                   },
                   {
+                    page:'highlight--3-2',
                     number: 'num3',
                     title:
                       'Innovate without limits with Lenovo TruScale',
                   },
                   {
+                    page:'highlight--3-4',
                     number: 'num4',
                     title:
                       'The path to future-ready IT starts here',

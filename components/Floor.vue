@@ -6,41 +6,52 @@
       <aside class="floor__intro" v-if="store.floor != 4 && !store.highlight">
         <div class="floor__intro-container">
           <h1>
-            Together we build up a successful Digital Transformation journey.
+            Create a future-proof organization of productivity and sustainability with Lenovo Manufacturing Solutions
           </h1>
+          <TickList
+                :items="[
+                  {
+                    title: '',
+                    description: 'Reduce labor costs by up to 80% and scheduling time by up to 83%.',
+                  },
+                  {
+                    title: '',
+                    description:
+                      'Achieve up to 60% reduction indecision making time when it comes to leading your business to the future.',
+                  },
+                  {
+                    title: '',
+                    description:
+                      'Create an environmentally conscious supply chain for a more sustainable future with Lenovo’s range of sustainability-driven technology and solutions.',
+                  },
+                ]"
+              />
           <p>
-            Welcome to the store! Choose a floor and explore the range of
-            advanced solutions designed to tackle each intricate hurdle.
+            Learn more about how Lenovo can help revolutionize your business by selecting an option below:
           </p>
-          <h2>Jump the line for Retail transformation benefits with us</h2>
-          <dl class="benefits">
-            <dt>#2</dt>
-            <dd>
-              The retail industry is the 2nd-biggest AI adopter
-              <sup><a href="#1">1</a></sup>
-            </dd>
-            <dt>Lack of skills and IT complexity</dt>
-            <dd>are the biggest innovation blockers in Retail</dd>
-            <dt>24%</dt>
-            <dd>of enterprises have already fully adopted AI</dd>
-          </dl>
-          <h2>
-            What steps will you take to surpass innovative Retailers who are
-            pushing the boundaries of AI?
-          </h2>
-          <p>
-            With Lenovo, you can elevate everything from the customer
-            experience, store operation, manufacturing, to supply chain
-            management. Access an end-to-end portfolio of proven solutions for
-            your Retail use cases. These solutions help you achieve AI-enhanced
-            business outcomes and insights. And you can enjoy the advantages of
-            the “as a service” model with Lenovo TruScale.
-          </p>
-          <p>
-            Check our virtual store to see how you can achieve enhanced customer
-            experience, accelerated operational efficiency, and new business
-            opportunities with Lenovo.
-          </p>
+          <TickListNumber
+                :items="[
+                  {
+                    number: 'num1',
+                    title: 'Smarter technology makes a sustainable difference',
+                  },
+                  {
+                    number: 'num2',
+                    title:
+                      'Robot automation designed to collaborate seamlessly with a human workforce',
+                  },
+                  {
+                    number: 'num3',
+                    title:
+                      'Scale round-the-clock vigilance for your organization',
+                  },
+                  {
+                    number: 'num4',
+                    title:
+                      'Centralize and automate supply chain management in one single hub',
+                  },
+                ]"
+              />
         </div>
       </aside>
     </transition>

@@ -24,9 +24,9 @@ ul {
 
   li {
     background: url('/images/tick.svg') top left no-repeat;
-    background-size: 3rem;
-    padding-left: 4rem;
-    min-height: 3rem;
+    background-size: 2rem;
+    padding-left: 3rem;
+    min-height: 2rem;
     strong {
       display: block;
       font-size: 1.2rem;

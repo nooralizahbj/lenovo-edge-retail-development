@@ -120,7 +120,7 @@
     <div class="floor__title" v-if="store.floor != 4">
       <h2>{{ title }}</h2>
       <p>
-        <span class="non-touch">Click</span><span class="touch-only">Tap</span>
+        <!-- <span class="non-touch">Click</span><span class="touch-only">Tap</span> -->
         {{ description }}
       </p>
     </div>
@@ -244,6 +244,7 @@ export default {
     grid-area: title;
     padding: 1rem;
     z-index: 1;
+    margin: auto;
 
     h2 {
       font-size: 1.8rem;

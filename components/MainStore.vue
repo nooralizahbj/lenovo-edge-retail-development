@@ -7,7 +7,7 @@
           :floor="1"
           baseImage="/images/warehouse-floor-2024.svg"
           v-if="store.floor === 1"
-          description="a spotlight to learn more about the values Lenovo Manufacturing Solutions deliver."
+          description=""
         >
           <template v-slot:highlights>
             <Highlight

@@ -106,7 +106,7 @@
               <p>
                 Experience always-on monitoring without physical limits when you equip your business with Lenovo Manufacturing Solutions :
               </p>
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.3rem">Gain complete oversight over your production process</h3>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Gain complete oversight over your production process</h3>
               <TickList
                 :items="[
                   {
@@ -116,7 +116,7 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.3rem">Optimize your operations, security and employee welfare</h3>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Optimize your operations, security and employee welfare</h3>
               <TickList
                 :items="[
                   {
@@ -156,7 +156,7 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.3rem">50-80% reduction on laborcosts</h3>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">50-80% reduction on laborcosts</h3>
               <TickList
                 :items="[
                   {
@@ -166,7 +166,7 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.3rem">Unparalleled flexibility</h3>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Unparalleled flexibility</h3>
               <TickList
                 :items="[
                   {
@@ -226,28 +226,37 @@
               iconMobile="/images/mobile_retail-01-ani.gif"
               label="Customer experiences"
             >
-              <h2>Fortified customer loyalty</h2>
+              <h2>Customer loyalty made dynamic</h2>
               <p>
-                Customers need more reasons to shop with you than just “price”.
-                Lenovo equips Retailers with the smarter technologies to
-                transform the customer shopping experience and increase the
-                customer loyalty.
+                Customers need more reasons to shop with you than just “price”. Lenovo equips Retailers with the smarter technologies to transform the customer shopping experience and increase the customer loyalty.
               </p>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Seamless integration of IoT devices and sensors</h3>
               <TickList
                 :items="[
                   {
-                    title: 'Better, more appealing marketing',
-                    description: 'with our ESLs and Digital Signage solutions.',
-                  },
-                  {
-                    title: 'New ways to engage customers',
+                    title: '',
                     description:
-                      'including Virtual Reality (VR) and Augmented Reality (AR).',
+                      'ThinkEdge devices like the <strong>SE50</strong> enable collection and analysis of data from various sources such as point of sale systems, RFID tags, video surveillance, and environmental sensors.  Gain valuable insights into customer behavior, optimize inventory management, and deliver personalized experiences.',
                   },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Deliver personalized experiences with your signage</h3>
+              <TickList
+                :items="[
                   {
-                    title: 'Faster, easier transactions',
+                    title: '',
                     description:
-                      'with mobile-first technologies and optimized store operations.',
+                      'Our <strong>Digital Signage Solution</strong> provides an interactive customer experience by personalizing in-store information and promotions based on your shoppers’ individual interests',
+                  },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Discover new ways to engage your customers</h3>
+              <TickList
+                :items="[
+                  {
+                    title: '',
+                    description:
+                      'Leverage customer and store activity data to identify opportunities for innovative marketing experiences, such as Virtual Reality and Augmented Reality or personalized mobile-driven experiences..',
                   },
                 ]"
               />
@@ -260,35 +269,42 @@
               :floor="2"
               icon="/images/destop_retail-02-ani.gif"
               iconMobile="/images/mobile_retail-02-ani.gif"
-              label="Store optimization"
+              label="Customer and store insights right at your fingertips"
             >
-              <h2>Store optimization</h2>
+              <h2>Customer and store insights right at your fingertips</h2>
               <p>
-                Use anonymized data and video to reveal new insights into
-                customer and staff behavior. These insights can help you:
+                Arm your team with tools that provide quick access to product and inventory information to help them streamline store operations and provide more personalized customer experiences.
               </p>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Mobile-first staff operations</h3>
               <TickList
                 :items="[
                   {
-                    title: 'Optimize staff schedules',
-                  },
-                  {
-                    title: 'Improve store planning',
-                    description: 'by placing goods in optimal locations.',
-                  },
-                  {
-                    title: 'Create a digital twin of your store',
+                    title: '',
                     description:
-                      'with Lenovo ThinkReality AR-powered smart glasses to enable smarter store design.',
+                      'Equip your staff with multifunctional <strong>Motorola Phones</strong> for use as barcode scanners for store operations, inventory management, customer engagement, and in-store communication.',
                   },
                 ]"
               />
-              <p>
-                <strong
-                  >Outcomes can include higher sales and more efficient use of
-                  space.</strong
-                >
-              </p>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Virtual reality tools for store operations planning</h3>
+              <TickList
+                :items="[
+                  {
+                    title: '',
+                    description:
+                      'Empower your staff with virtual reality tools like the <strong>ThinkReality VRX Headset</strong>, which allows store associates to leverage digital twins to plan and optimize store layout, inventory, security implementation, and more - all in a virtual environment.',
+                  },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Manage store operations on one device</h3>
+              <TickList
+                :items="[
+                  {
+                    title: '',
+                    description:
+                      'Keep operations running smoothly on the <strong>ThinkCenter M80q Desktop</strong> that can be customized to handle the varied needs of the manager\'s office, engineered with the end-to-end security of <strong>ThinkShield</strong>.',
+                  },
+                ]"
+              />
             </Highlight>
             <Highlight
               id="highlight--2-3"
@@ -300,28 +316,37 @@
               iconMobile="/images/mobile_retail-03-ani.gif"
               label="Reduce friction"
             >
-              <h2>Reduce customer friction and stock losses</h2>
+              <h2>Enhance your customer experience and prevent stock losses</h2>
               <p>
-                Deliver a seamless checkout experience which is fast, easy and
-                convenient.
+                <strong>Lenovo Retail Solutions</strong> empower your stores with seamless customer experiences up to the checkout experience, ensuring a fast, easy, and secure purchase in every transaction.
               </p>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">No more wait times</h3>
               <TickList
                 :items="[
                   {
-                    title: 'No more wait time',
+                    title: '',
                     description:
-                      'with our Self Service Kiosk, customers can enjoy the fast and easy check-out experience, just like what they do online.',
+                      'Lenovo <strong>Self Service Kiosk (SSK)</strong> lets customers enjoy a fast and easy checkout experience while reducing customer dissatisfaction and labor costs.',
                   },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Mitigate risk and losses with AI</h3>
+              <TickList
+                :items="[
                   {
-                    title:
-                      'Mitigate the business risk and digitalize the high-value business process',
+                    title: '',
                     description:
-                      'by rapidly analyzing video data through computer vision, powered by Loss Prevention AI technology.',
+                      'Lenovo’s <strong>Loss Prevention Solution</strong> rapidly analyzes video data through computer vision to immediately detect and act upon potential stock loss threats right as they happen, be it at checkout or any instance within your store.',
                   },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Resolve issues intelligently and remotely</h3>
+              <TickList
+                :items="[
                   {
-                    title: 'Fix problems intelligently',
+                    title: '',
                     description:
-                      'correcting most errors without the need to pull staff away from other duties.',
+                      'Correct most errors remotely without the need to pull staff away from their duties, or disrupting the shopping experience.',
                   },
                 ]"
               />
@@ -336,22 +361,37 @@
               iconMobile="/images/mobile_retail-04-ani.gif"
               label="Digital"
             >
-              <h2>Make the physical digital:</h2>
+              <h2>Retail made for the phygital age</h2>
               <p>
-                Enhance the customer experience and optimize the store operation
-                with our turnkey solutions:
+                Enhance the customer experience right at the shelves with our digital signage solutions and functionalities.
               </p>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Dynamic pricing on-the-go, at scale</h3>
               <TickList
                 :items="[
                   {
-                    title: 'Bridging online and offline shopping experience',
+                    title: '',
                     description:
-                      'through our next generation ESLs solution. Enjoy the personalized experience like  “buy online pick up in-store”, “click and collect”, and “membership promotion.”',
+                      'Our <strong>Dynamic Pricing Solution</strong> lets you manage and update millions of <strong>Electronic Shelf Labels</strong> simultaneously, streamlining store operations by reducing repetitive manual work for your store staff.',
                   },
                   {
-                    title: 'Streamline the operational work',
+                    title: '',
                     description:
-                      'by automating the repetitive work through our Dynamic Pricing solution, and enabling remote control the shelf display through our Digital Shelving solution.',
+                      'Easy integration with other backend databases and systems, providing you a wealth of data-driven insights and management options.',
+                  },
+                  {
+                    title: '',
+                    description:
+                      'Enable personalized experiences for your customers, such as “click & collect” shopping options and mobile loyalty program integrations.',
+                  },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Mobile-first staff operations</h3>
+              <TickList
+                :items="[
+                  {
+                    title: '',
+                    description:
+                      'Through a seamless data flow from IOT devices to algorithm layers, Lenovo <strong>Digital Shelving</strong> provides you with valuable insights into your shelf displays and make data-driven decisions on display optimization, sales efficiency and personalized shopping experiences.',
                   },
                 ]"
               />
@@ -362,28 +402,31 @@
               :y="42"
               :width="11"
               :floor="2"
-              icon="/images/destop_warehouse-01-ani.gif"
+              icon="/images/destop_retail-03-ani.gif"
               iconMobile="/images/mobile_warehouse-01-ani.gif"
               label="Food Waste"
             >
-              <h2>Insights empowered by AI in every dimension of the store:</h2>
+              <h2>Harness the power of smart technology and AI to empower your store</h2>
               <p>
-                According to UN data, around one third of all food produced
-                globally each year (or 1.3 billion tons) is wasted.
-                <sup><a href="#2">2</a></sup>
+                According to the UN, around one third of all food produced globally each year (or 1.3 billion tons) is wasted. Lenovo not only helps you reduce your food waste footprint in your operations, we help ensure you preserve the value of every product you produce and send to your stores.
               </p>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">End-to-end cold chain supply management</h3>
               <TickList
                 :items="[
                   {
-                    title: 'Reduce food waste',
+                    title: '',
                     description:
-                      'by tracking and monitoring food on it’s route from field to shelf with smart end-to-end cold chain management.',
+                      'Lenovo’s <strong>Global Supply Chain Solutions</strong> provide you a unified view and centralized management of your entire supply chain from route to field to shelf, reducing overall waste and costs across the ecosystem.',
                   },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Retail enhanced by customer and staff behavior</h3>
+              <TickList
+                :items="[
                   {
-                    title:
-                      'Improve store performance, optimize conversion, and enhance staff productivity',
+                    title: '',
                     description:
-                      'with the Traffic Analysis solution which provides real-time insights and actionable recommendations based on the shopper behaviors and foot traffic data.',
+                      'Improve store performance, optimize conversion, and enhance staff productivity with the AI-powered <strong>Traffic Analysis Solutions</strong>, providing you real-time insights and actionable recommendations based on shopper behaviors and foot traffic data.',
                   },
                 ]"
               />

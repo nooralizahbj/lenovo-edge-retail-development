@@ -134,9 +134,9 @@
             </Highlight>
             <Highlight
               id="highlight--1-2"
-              :x="44"
-              :y="41"
-              :width="20"
+              :x="45"
+              :y="44"
+              :width="25"
               :floor="1"
               icon="/images/destop_warehouse-03-ani.gif"
               iconMobile="/images/mobile_warehouse-03-ani.gif"

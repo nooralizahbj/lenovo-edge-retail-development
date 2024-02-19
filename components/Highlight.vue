@@ -174,6 +174,11 @@ export default {
     display: grid;
     align-content: center;
     height: 100%;
+    overflow-y: auto; 
+
+    &::-webkit-scrollbar {
+      display: none; /* for Chrome, Safari, and Opera */
+    }
 
     @media (max-width: 920px) {
       padding-right: 0;

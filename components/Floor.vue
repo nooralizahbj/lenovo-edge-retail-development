@@ -495,6 +495,10 @@ export default {
     @media (min-width: 920px) {
       max-height: calc(100vh - var(--navbar-height));
       overflow-y: auto;
+
+      &::-webkit-scrollbar {
+        display: none; /* for Chrome, Safari, and Opera */
+      }
     }
     @media (max-width: 700px) {
       padding: 0 1rem;

@@ -21,29 +21,44 @@
               iconMobile="/images/mobile_warehouse-01-ani.gif"
               label="Sustainability"
             >
-              <h2>Make real progress on sustainability</h2>
+              <h2>Smarter technology makes a sustainable difference</h2>
               <p>
-                The importance of sustainability is self-evident: customers
-                favor products that embrace environmental consciousness,
-                investors value ESG governance, and governments are tightening
-                related policies.
+                Sustainability is more critical than ever before as investors value ESG governance, customers favour brands and products that embrace environmental consciousness, and governments  implement ever tightening sustainability policies. Embrace a sustainable future and stay ahead of the curve with Lenovo sustainability solutions.
               </p>
-              <TickList
+              <TickListVideo
                 :items="[
                   {
-                    title: 'Reduce packaging impact',
-                    description: 'and waste with bulk packaging services.',
+                    title: 'Reuse, refurbish & recycle',
+                    description: '<strong>Lenovo Asset Recovery Services</strong> Maximizes the reuse, recycling and/or disposal of end-of-life products, parts and waste to mitigate security concerns and maximize asset value, sustaining an environmentally conscious circular economy.',
+                    floor: 1,
+                    video: '/video/Lenovo Asset Recovery Services.mp4',
+                    poster: '#',
                   },
                   {
-                    title: 'Enhanced ESG management',
+                    title: 'Manage the carbon footprint of your devices seamlessly',
                     description:
-                      'by automating the whole process to empower transparency, accuracy and integrity for various stakeholders.',
+                      'Offset the estimated carbon emissions associated with new or existing Lenovo devices across your IT fleet with <strong>Lenovo CO2 Offset Services</strong> and support verified climate action projects around the world.',
+                    floor: 1,
+                    video: '/video/Lenovo C02 Offset Services (1080p).mp4',
+                    poster: '#',
+                    x: 0,
+                    y: 0
+                  },
+                  {
+                    title: 'Digitizing ESG data management across the value chain',
+                    description:
+                      '<strong>Lenovo ESG Navigator</strong> enables you to monitor key ESG metrics at manufacturing sites and delivers near-real-time insights on GHG emissions and energy use.',
+                    floor: 1,
+                    video: '/video/Lenovo ESG Navigator.mp4',
+                    poster: '#',
+                    x: 0,
+                    y: 0
                   },
                 ]"
               />
             </Highlight>
             <Highlight
-              id="highlight--1-2"
+              id="highlight--1-4"
               :x="69"
               :y="82"
               :width="36"
@@ -53,78 +68,121 @@
               iconMobile="/images/mobile_office-02-ani.gif"
               label="Supply chain"
             >
-              <h2>Simplify your infrastructure to make room for innovation.</h2>
+              <h2>Centralize and automate supply chain management in one single hub</h2>
               <p>
-                According to Omdia research, complex operations and IT
-                management are impeding innovation at Retailers. Our solutions
-                can help eliminate these barriers.
+                Enable your business with immediate visibility, coordination, and management across your entire system with our <strong>Warehouse Execution System (WES)</strong> and award-winning <strong>Supply Chain Intelligence (SCI)</strong> solutions, made to fit for your business’ operations.
               </p>
-              <TickList
+              <TickListNew
                 :items="[
                   {
-                    title: 'Deploy reliable and secure solutions',
+                    title: 'Streamlined warehouse management made for efficiency',
                     description:
-                      'that work seamlessly as part of your wider edge infrastructure.',
+                      'Lenovo’s Warehouse Execution System is a unified data and command gateway between the <strong>Warehouse Management System (WMS)</strong> and the Warehouse Control System (WCS), providing a comprehensive and real-time overview of warehouse operations.',
                   },
                   {
-                    title: 'Improve more than 10% operational efficiency',
+                    title: 'Efficient high-quality production with efficient decision-making',
                     description:
-                      'by implementing our Warehouse Execution System, a unified data and command gateway between the Warehouse Management System (WMS) and Warehouse Control System (WCS).',
+                      'Our AI-powered Supply Chain Intelligence Solution lets you manage your entire supply chain operations on one centralized hub, allowing you to manage every aspect of your business from one integrated platform.',
                   },
                   {
-                    title: 'Work with one partner',
+                    title: 'Proven and measurable supply chain optimization',
                     description:
-                      'who can meet all of your needs, instead of juggling many relationships.',
+                      'When used together, our supply chain management solutions deliver multiple efficiency benefits: <br>- 60% reduction in decision making time <br>-20% cost reduction in manufacturing and logistics <br>-4.8% boost in revenue',
                   },
                 ]"
               />
             </Highlight>
             <Highlight
               id="highlight--1-3"
-              :x="60"
-              :y="51"
-              :width="18"
-              image="/images/warehouse-robotarm-2.svg"
+              :x="40"
+              :y="90"
+              :width="20"
+              :floor="1"
+              icon="/images/destop_office-02-ani.gif"
+              iconMobile="/images/mobile_office-02-ani.gif"
+              label="Scale"
+            >
+              <h2>Scale round-the-clock vigilance for your organization</h2>
+              <p>
+                Experience always-on monitoring without physical limits when you equip your business with Lenovo Manufacturing Solutions :
+              </p>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.3rem">Gain complete oversight over your production process</h3>
+              <TickList
+                :items="[
+                  {
+                    title: '',
+                    description:
+                      '<strong>Lenovo Industrial Computer Vision</strong> utilizes AI technologies to analyze and interpret real-time visual data for different use scenarios, including quality inspection, safety supervision, equipment monitoring, and general monitoring.',
+                  },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.3rem">Optimize your operations, security and employee welfare</h3>
+              <TickList
+                :items="[
+                  {
+                    title: '',
+                    description:
+                      'Lenovo’s <strong>Asset Tracking</strong> service incorporates Real Time Locating System (RTLS) technology, providing accurate and reliable tracking services through RFID, Wi-Fi, Bluetooth, ultra-wideband (UWB), infrared, and GPS whether it’s tracking your warehouse, inventory, personnel, or security threats.',
+                  },
+                  {
+                    title: '',
+                    description:
+                      'Leverage AI-driven technology and tracking services to enhance your employees’ welfare and manufacturing line efficiency.',
+                  },
+                ]"
+              />
+            </Highlight>
+            <Highlight
+              id="highlight--1-2"
+              :x="44"
+              :y="41"
+              :width="20"
               :floor="1"
               icon="/images/destop_warehouse-03-ani.gif"
               iconMobile="/images/mobile_warehouse-03-ani.gif"
               label="Work systems"
             >
-              <h2>Optimize the Supply Chain management</h2>
+              <h2>Robot automation designed to collaborate seamlessly with a human workforce</h2>
               <p>
-                Supply chain resilience is one of the top challenges for all
-                manufacturers. With AI-powered solutions, you’ll discover that
-                managing a powerful supply chain has never been easier.
+                Lenovo’s <strong>Pick Assist AMR (Autonomous Mobile Robots)</strong> utilizes the most advanced “order-to-person” collaborative mode, minimising human intervention whilst maximising efficiency within your warehouse operations.
               </p>
+              <h3 style="font-weight:800; margin-bottom:-0.3rem">Logistics powered by human and robot synergy</h3>
               <TickList
                 :items="[
                   {
-                    title:
-                      '60% decision making time reduced and 20% cost reduction in manufacturing and logistics',
+                    title: '',
                     description:
-                      'through the application of our award winning Supply Chain Intelligence solution, acknowledged by Gartner and IDC.',
+                      'Lenovo’s Pick Assist AMR intelligently plans the optimal routes to autonomously navigate through dynamic environments to serve your logistical needs at every stage of order fulfillment.',
                   },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.3rem">50-80% reduction on laborcosts</h3>
+              <TickList
+                :items="[
                   {
-                    title: '83% production scheduling time reduction',
+                    title: '',
                     description:
-                      'by using the Advanced Planning and Scheduling solution.',
+                      'Our Pick Assist AMR technology delivers significant cost advantages by reducing labor costs, providing you with visible return on investments within 10 to 24 months.',
+                  },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.3rem">Unparalleled flexibility</h3>
+              <TickList
+                :items="[
+                  {
+                    title: '',
+                    description:
+                      'Pick Assist AMR technology is ready to use out-of-the-box, providing you maximum convenience to begin optimizing your warehouse operations.',
                   },
                   {
-                    title: 'Faster delivery',
-                    description: 'that enhances the customer experience',
-                  },
-                  {
-                    title: 'Reduction of wastage',
-                    description: '',
-                  },
-                  {
-                    title: 'Continuous high quality',
-                    description: 'across your product lines.',
+                    title: '',
+                    description:
+                      'Customize your fleet across a range of robot types in flexible quantities, allowing you to tailor your solution to your specific business and facility requirements.',
                   },
                 ]"
               />
             </Highlight>
-            <VideoHighlight
+            <!-- <VideoHighlight
               x="38"
               y="81"
               floor="1"
@@ -144,14 +202,14 @@
               floor="1"
               videoUrl="/video/Automated_guided_forklift_(AGF)-2.mp4"
               posterUrl="#"
-            />
+            /> -->
           </template>
         </Floor>
       </Transition>
 
       <Transition name="floor" mode="out-in">
         <Floor
-          title="See how the shopping experience can be transformed"
+          title="Experience the future of store retail"
           :floor="2"
           baseImage="/images/shop-2024.svg"
           v-if="store.floor === 2"
@@ -344,7 +402,7 @@
               videoUrl="#"
               posterUrl="#"
             /> -->
-            <VideoHighlight
+            <!-- <VideoHighlight
               x="71"
               y="65"
               floor="2"
@@ -357,18 +415,18 @@
               floor="2"
               videoUrl="/video/Lenovo_Digital_Shelving_Subbed-04012024.mp4"
               posterUrl="#"
-            />
+            /> -->
           </template>
         </Floor>
       </Transition>
       <Transition name="floor" mode="out-in">
         <Floor
-          title="Shaping the new possible through employee productivity and experience"
+          title="Smarter brings productivity and simplicity together"
           :floor="3"
           baseImage="/images/office.svg"
           v-if="store.floor === 3"
           description=""
-        >
+        > 
           <template v-slot:highlights>
             <Highlight
               id="highlight--3-1"
@@ -541,7 +599,7 @@
               :floor="3"
             >
             </Highlight>
-            <VideoHighlight
+            <!-- <VideoHighlight
               x="67"
               y="33"
               floor="3"
@@ -568,7 +626,7 @@
               floor="3"
               videoUrl="/video/Lenovo-ASRS.mp4"
               posterUrl="#"
-            />
+            /> -->
           </template>
         </Floor>
       </Transition>

@@ -247,7 +247,7 @@
                   },
                   {
                     title: 'Maximize your circularity',
-                    description: 'Lenovo Asset Recovery Services provide packaging collection, data backup and wiping, and recycling and disposal services so that you can minimize product and e-waste.',
+                    description: '<strong>Lenovo Asset Recovery Services</strong> provide packaging collection, data backup and wiping, and recycling and disposal services so that you can minimize product and e-waste.',
                   },
                 ]"
               />

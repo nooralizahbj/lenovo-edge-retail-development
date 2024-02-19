@@ -155,7 +155,7 @@
           :floor="2"
           baseImage="/images/shop-2024.svg"
           v-if="store.floor === 2"
-          description="a spotlight to learn more about the values Lenovo Retail Solutions deliver."
+          description=""
         >
           <template v-slot:highlights>
             <Highlight
@@ -367,7 +367,7 @@
           :floor="3"
           baseImage="/images/office.svg"
           v-if="store.floor === 3"
-          description="a spotlight to learn more about the values Lenovo deliver."
+          description=""
         >
           <template v-slot:highlights>
             <Highlight

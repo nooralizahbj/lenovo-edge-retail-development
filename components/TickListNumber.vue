@@ -25,6 +25,9 @@ ul {
     background-size: 3rem;
     padding-left: 4rem;
     min-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     &.num1 {
       background: url('/images/1.svg') top left no-repeat;
     }

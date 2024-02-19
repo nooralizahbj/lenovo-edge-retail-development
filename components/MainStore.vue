@@ -466,7 +466,7 @@
         <Floor
           title="Smarter brings productivity and simplicity together"
           :floor="3"
-          baseImage="/images/office.svg"
+          baseImage="/images/office-2024.svg"
           v-if="store.floor === 3"
           description=""
         > 
@@ -476,33 +476,47 @@
               :x="35"
               :y="43"
               :width="25"
-              image="/images/office-door.svg"
               :floor="3"
               icon="/images/destop_office-01-ani.gif"
               iconMobile="/images/mobile_office-01-ani.gif"
               label="Secure devices"
             >
-              <h2>A new definition of “safe” is required.</h2>
+              <h2>Setting the standard in security</h2>
               <p>
-                Retaining the trust of your customers and partners means
-                protecting their private data from cyber-attacks and loss.
+                As your trusted partner, Lenovo builds security into our solutions from development through to delivery to protect your customer and company data, allowing you to focus on your business growth.
               </p>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Comprehensive monitoring and protection across all endpoints</h3>
               <TickList
                 :items="[
                   {
-                    title: 'Better protection',
+                    title: '',
                     description:
-                      'With Lenovo ThinkShield, you can be confident that your customers, your people, and your organizations are all protected.',
+                      'Powered by Critical Start’s Zero-Trust Analytics Platform (ZTAP), our new <strong>Digital Workplace Solutions - Managed Extended Detection and Response (MxDR)</strong> integrates seamlessly with multiple industry-leading security technologies, helping organizations of all sizes stay ahead of adversaries.',
                   },
                   {
-                    title: 'Optimize security investments',
+                    title: '',
                     description:
-                      'Purpose-built Managed eXtended Detection & Response (MxDR) Services give you the capability to detect the right threats, respond with the right actions, all with the agility and adaptability you need.',
+                      'Safeguard digital assets and business continuance and improve overall digital experience and productivity',
                   },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">With great power, comes even greater security</h3>
+              <TickList
+                :items="[
                   {
-                    title: 'Built-in Security',
+                    title: '',
                     description:
-                      'And Lenovo servers, including ThinkEdge systems retailers deploy at the edge, build in modern security features such as self-healing BIOS and self-encrypting drives to protect data and your business.',
+                      'Lenovo’s range of globally certified <strong>ThinkEdge</strong> gives you greater power in a smaller footprint, so your processing power can be discreetly tucked away at the edge of your business, ready for action.',
+                  },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Safeguard your customer, payment and company information</h3>
+              <TickList
+                :items="[
+                  {
+                    title: '',
+                    description:
+                      '<strong>Lenovo ThinkShield</strong> evolves with the modern threat landscape to protect your business and adapt to the needs of the workforce. All vulnerabilities can be totally and securely covered by our extensive portfolio of secure solutions, software, and services.',
                   },
                 ]"
               />
@@ -512,28 +526,52 @@
               :x="70"
               :y="70"
               :width="20"
-              image="/images/office-desk2.svg"
               :floor="3"
               icon="/images/destop_office-02-ani.gif"
               iconMobile="/images/mobile_office-02-ani.gif"
               label="Transformation"
             >
-              <h2>Transform to obtain AI and edge benefits sooner.</h2>
+              <h2>Innovate without limits with Lenovo TruScale</h2>
               <p>
-                Digital transformation can be a long and challenging journey,
-                but ambitious Retailers don’t stop there. They ask themselves
-                how to realize the benefits.
+                Lenovo TruScale IaaS provides a cloud-like experience, allowing you to leverage the right solutions for your business, from the pocket to the Edge - All with on-premise security for control and peace of mind.
               </p>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Build the vision that takes your business forward</h3>
               <TickList
                 :items="[
                   {
-                    title: 'You can run faster',
+                    title: '',
                     description:
-                      'when you choose interoperable hardware, software and services.',
+                      '<strong>Lenovo TruScale for Edge and AI</strong> delivers the right data center as a service solution based on advanced metering technologies of your choice so you can embark on your digital transformation journey with minimal upfront investment.',
                   },
                   {
-                    title: 'Tested, validated and deployed',
-                    description: 'by Lenovo experts.',
+                    title: '',
+                    description:
+                      'Take away the burden of day-to-day datacenter management, with full flexibility and faster time to market and respond to changing market opportunities with speed and agility.',
+                  },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Stay right sized, all the time</h3>
+              <TickList
+                :items="[
+                  {
+                    title: '',
+                    description:
+                      '<strong>Lenovo TruScale</strong> is flexible, cost-efficient, and scalable model that aligns infrastructure with your organization’s evolving demands, eliminating over-provisioning to ensure that you only pay for what you use.',
+                  },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Accelerate performance, simplify management, optimize protection</h3>
+              <TickList
+                :items="[
+                  {
+                    title: '',
+                    description:
+                      '<strong>Lenovo TruScale</strong> Data management, HPC and Hybrid Cloud portfolios address unique challenges across customer workloads ranging from AI to analytics and data-intensive enterprise applications.',
+                  },
+                  {
+                    title: '',
+                    description:
+                      'Scale, accelerate, and protect data with new simplified designs and affordable consumption models that reduce risk and cost.',
                   },
                 ]"
               />
@@ -543,7 +581,6 @@
               :x="31"
               :y="68"
               :width="20"
-              image="/images/office-desk3.svg"
               :floor="3"
               icon="/images/destop_office-03-ani.gif"
               iconMobile="/images/mobile_office-03-ani.gif"
@@ -551,37 +588,35 @@
             >
               <h2>Accelerate purposeful innovation everywhere</h2>
               <p>
-                Our solutions not only help Retailers enhance the customer
-                satisfaction, operational efficiency, and revenue opportunities,
-                but also empower the employees in their daily work.
+                With the right technology, employees are more empowered in their roles and can focus on meaningful work. With the right technology partner, so can IT leaders. Lenovo’s flexible, scalable, easy-to-deploy digital workplace solutions help accomplish your business goals while freeing up time for IT to focus on innovation and strategic priorities.
               </p>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Unlock up to 50% improvement in time to employee productivity</h3>
               <TickList
                 :items="[
                   {
-                    title:
-                      'Unlock up to 50% improvement in time to employee productivity',
+                    title: '',
                     description:
-                      'with a digital workplace culture that gives them seamless collaboration and increased efficiency.',
+                      '<strong>Lenovo Digital Workplace Solutions</strong> transform your business with next generation technology, automation and tools that free up your IT Support teams and leverage external expertise to deliver business efficiency.',
                   },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Keep employees connected no matter where they’re working</h3>
+              <TickList
+                :items="[
                   {
-                    title: 'Smarter solutions for the workplace:',
+                    title: '',
                     description:
-                      'Keep employees connected no matter where they’re working. Lenovo collaboration solutions like the ThinkSmart One + Controller feature the Intel vPro<sup>®</sup> platform for easy remote manageability.',
+                      'Lenovo collaboration solutions like the <strong>ThinkSmart One + Controller</strong> feature the Intel vPro® platform for easy remote manageability.',
                   },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Stay productive no matter where you work</h3>
+              <TickList
+                :items="[
                   {
-                    title: 'Transform your business',
+                    title: '',
                     description:
-                      'with next generation technology, automation and tools that free up your IT Support teams and leverage external expertise to deliver business efficiency through Lenovo Digital Workplace Solutions.',
-                  },
-                  {
-                    title: 'Manage carbon footprints',
-                    description:
-                      'and support UN and Gold Standard vetted climate action projects with Lenovo CO<sub>2</sub> Offset Services.',
-                  },
-                  {
-                    title: 'Reuse, refurbish, and recycle',
-                    description:
-                      'your retiring IT assets with secure data disposal through Lenovo Asset Recovery Services.',
+                      'ThinkPad devices like the <strong>X1 Carbon</strong> deliver powerful performance for any task, offer long battery life, and are MIL-SPEC test to ensure durability. With ThinkPad, your back office team can stay productive no matter where they work.',
                   },
                 ]"
               />
@@ -591,7 +626,6 @@
               :x="79"
               :y="50"
               :width="35"
-              image="/images/office-servers.svg"
               :floor="3"
               icon="/images/destop_office-04-ani.gif"
               iconMobile="/images/mobile_office-04-ani.gif"
@@ -599,35 +633,40 @@
             >
               <h2>The path to future-ready IT starts here</h2>
               <p>
-                Make sure downtime doesn’t come between your customers and your
-                services. Build a foresighted tech team while leave the heavy
-                lifting with us.
+                Future proof your business with Lenovo consultancy and scalable hardware solutions that enable your business to grow while preventing downtime from getting between you and your customers.
               </p>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Future proof your IT</h3>
               <TickList
                 :items="[
                   {
-                    title: 'Innovate without limits',
+                    title: '',
                     description:
-                      'Lenovo TruScale combines the cloud flexibility and the on-prem security and control, all into one smarter alternative: managed, sustainable, cost effective and fast!',
+                      'Leverage Lenovo’s IT experts with <strong>Lenovo Professional Services</strong>: free your team from the hassle of operating inefficient infrastructure and evolve to future-proof IT.',
                   },
                   {
-                    title: 'Reduce energy consumption',
+                    title: '',
                     description:
-                      'with accurate utilization and metering technology that prevents over-provisioning of systems.',
+                      'From breaking down complex business processes to implementation, Lenovo’s experts ensure your systems are ready to meet your business goals and needs.',
                   },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Scale your performance capabilities to meet any demand</h3>
+              <TickList
+                :items="[
                   {
-                    title: 'Eliminate the trade-off',
+                    title: '',
                     description:
-                      'between performance, energy efficiency, and cost-savings with Lenovo Neptune™ direct water cooling that delivers 95% heat removal efficiency and 40% lower power consumption',
+                      'From single node enterprise deployments to the largest supercomputers in the world, the <strong>Lenovo ThinkSystem SR675 V3</strong> provides uncompromised versatility for any GPU accelerated workload.',
                   },
+                ]"
+              />
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Run hot, stay cool, and save energy</h3>
+              <TickList
+                :items="[
                   {
-                    title: 'Always be prepared',
-                    description: 'and respond to incidents with our support.',
-                  },
-                  {
-                    title: 'Be innovative and strategic',
+                    title: '',
                     description:
-                      'with our Advisory and Professional Services. Free your team from the hassle of operating inefficient infrastructure and evolve to future-proof IT.',
+                      'Designed to run the highest core-count and frequency, <strong>Lenovo Neptune™</strong> direct liquid cooling technology delivers 95% heat removal efficiency and up to 40% lower power consumption in a compact footprint that allows for higher density in the data center.',
                   },
                 ]"
               />
@@ -637,7 +676,6 @@
               :x="50"
               :y="60"
               :width="50"
-              image="/images/office-misc.svg"
               :nonInteractive="true"
               :floor="3"
             >

@@ -223,21 +223,11 @@
     <transition>
       <aside class="floor__intro" v-if="store.floor === 4 && !store.highlight">
         <div class="floor__intro-container">
-            <!-- <div class="video-title">
-              <h1>Enter the future of retail</h1>
-              <div class="icon">
-                <VideoHighlightFloor4
-                  floor="4"
-                  videoUrl="/video/Lenovo NFR Animation 28122023.mp4"
-                  posterUrl="/images/LEN002-LNFR-Static 2.png"
-                />
-              </div>
-            </div> -->
               <h1>Enter the future of retail</h1>
               <p>
                 <b style="font-weight: 900;">Lenovo Services for Retail</b> unifies the power of hardware, software and services to deliver an experience that’s ready for the future of retail. Growing with your business, our unified solution simplifies and smooths your evolution to a seamless shopping experience your customers trust, and love.
               </p>
-              <TickList
+              <TickListNew
                 :items="[
                   {
                     title: 'Deploy seamlessly without hassle',
@@ -248,8 +238,8 @@
                     description: 'Outsource your day-to-day management of your IT tasks and functions with onsite field services, asset inventory and management, flex pool management and many more - so that your business can focus on what matters.',
                   },
                   {
-                    title: 'Always stay running at your best',
-                    description: 'Keep your devices performing at peak efficiency while optimizing your operations with our premier support service solutions, and minimize your operational downtime and maximize revenue.',
+                    title: 'Transform your IT experience',
+                    description: 'Keep your devices performing at peak efficiency and elevate employee productivity with Lenovo Premier Support suite, offering direct access to advanced technicians, 24x7x365 expedited support, escalation management, extended protection plans and AI-powered insights, all designed to help you achieve more and waste less.',
                   },
                   {
                     title: 'Protect your business from digital threats',
@@ -257,7 +247,7 @@
                   },
                   {
                     title: 'Maximize your circularity',
-                    description: 'Lenovo solutions provide packaging collection, data backup and wiping, and recycling and disposal services so that you can minimize product and e-waste.',
+                    description: 'Lenovo Asset Recovery Services provide packaging collection, data backup and wiping, and recycling and disposal services so that you can minimize product and e-waste.',
                   },
                 ]"
               />

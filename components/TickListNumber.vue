@@ -1,10 +1,6 @@
 <template>
   <ul>
-    <li
-      v-for="(item, index) in items"
-      :key="index"
-      v-bind:class="item.number"
-    >
+    <li v-for="(item, index) in items" :key="index" v-bind:class="item.number">
       <strong>{{ item.title }}</strong>
     </li>
   </ul>

@@ -15,11 +15,13 @@
       </aside>
     </transition>
     <ul class="list-highlight">
-      <li :class="`${number}`"
+      <li
+        :class="`${number}`"
         :data-selected="store.highlight === id"
         @click.stop="select"
         :aria-label="label"
-        :aria-hidden="nonInteractive ? true : false">
+        :aria-hidden="nonInteractive ? true : false"
+      >
         <strong>{{ label }}</strong>
       </li>
     </ul>

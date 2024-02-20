@@ -1,8 +1,8 @@
 <template>
   <ul>
     <div v-for="(item, index) in items" :key="index">
-        <strong>{{ item.title }}</strong>
-        <!-- <div class="video-title">
+      <strong>{{ item.title }}</strong>
+      <!-- <div class="video-title">
           <div class="icon">
             <VideoHighlightNew
             :x="item.x"
@@ -42,7 +42,7 @@ ul {
   display: grid;
   gap: 1rem;
   padding-left: 0;
-  
+
   div {
     strong {
       display: block;

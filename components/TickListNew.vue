@@ -23,7 +23,7 @@ ul {
   display: grid;
   gap: 1rem;
   padding-left: 0;
-  
+
   div {
     strong {
       display: block;

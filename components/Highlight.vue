@@ -174,7 +174,7 @@ export default {
     display: grid;
     align-content: center;
     height: 100%;
-    overflow-y: auto; 
+    overflow-y: auto;
 
     &::-webkit-scrollbar {
       display: none; /* for Chrome, Safari, and Opera */

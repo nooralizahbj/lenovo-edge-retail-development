@@ -23,36 +23,44 @@
             >
               <h2>Smarter technology makes a sustainable difference</h2>
               <p>
-                Sustainability is more critical than ever before as investors value ESG governance, customers favour brands and products that embrace environmental consciousness, and governments  implement ever tightening sustainability policies. Embrace a sustainable future and stay ahead of the curve with Lenovo sustainability solutions.
+                Sustainability is more critical than ever before as investors
+                value ESG governance, customers favour brands and products that
+                embrace environmental consciousness, and governments  implement
+                ever tightening sustainability policies. Embrace a sustainable
+                future and stay ahead of the curve with Lenovo sustainability
+                solutions.
               </p>
               <TickListVideo
                 :items="[
                   {
                     title: 'Reuse, refurbish & recycle',
-                    description: '<strong>Lenovo Asset Recovery Services</strong> Maximizes the reuse, recycling and/or disposal of end-of-life products, parts and waste to mitigate security concerns and maximize asset value, sustaining an environmentally conscious circular economy.',
+                    description:
+                      '<strong>Lenovo Asset Recovery Services</strong> Maximizes the reuse, recycling and/or disposal of end-of-life products, parts and waste to mitigate security concerns and maximize asset value, sustaining an environmentally conscious circular economy.',
                     floor: 1,
                     video: '/video/Lenovo Asset Recovery Services.mp4',
                     poster: '#',
                   },
                   {
-                    title: 'Manage the carbon footprint of your devices seamlessly',
+                    title:
+                      'Manage the carbon footprint of your devices seamlessly',
                     description:
                       'Offset the estimated carbon emissions associated with new or existing Lenovo devices across your IT fleet with <strong>Lenovo CO2 Offset Services</strong> and support verified climate action projects around the world.',
                     floor: 1,
                     video: '/video/Lenovo C02 Offset Services (1080p).mp4',
                     poster: '#',
                     x: 0,
-                    y: 0
+                    y: 0,
                   },
                   {
-                    title: 'Digitizing ESG data management across the value chain',
+                    title:
+                      'Digitizing ESG data management across the value chain',
                     description:
                       '<strong>Lenovo ESG Navigator</strong> enables you to monitor key ESG metrics at manufacturing sites and delivers near-real-time insights on GHG emissions and energy use.',
                     floor: 1,
                     video: '/video/Lenovo ESG Navigator.mp4',
                     poster: '#',
                     x: 0,
-                    y: 0
+                    y: 0,
                   },
                 ]"
               />
@@ -68,19 +76,29 @@
               iconMobile="/images/mobile_office-02-ani.gif"
               label="Supply chain"
             >
-              <h2>Centralize and automate supply chain management in one single hub</h2>
+              <h2>
+                Centralize and automate supply chain management in one single
+                hub
+              </h2>
               <p>
-                Enable your business with immediate visibility, coordination, and management across your entire system with our <strong>Warehouse Execution System (WES)</strong> and award-winning <strong>Supply Chain Intelligence (SCI)</strong> solutions, made to fit for your business’ operations.
+                Enable your business with immediate visibility, coordination,
+                and management across your entire system with our
+                <strong>Warehouse Execution System (WES)</strong> and
+                award-winning
+                <strong>Supply Chain Intelligence (SCI)</strong> solutions, made
+                to fit for your business’ operations.
               </p>
               <TickListNew
                 :items="[
                   {
-                    title: 'Streamlined warehouse management made for efficiency',
+                    title:
+                      'Streamlined warehouse management made for efficiency',
                     description:
                       'Lenovo’s <strong>Warehouse Execution System</strong> is a unified data and command gateway between the Warehouse Management System (WMS) and the Warehouse Control System (WCS), providing a comprehensive and real-time overview of warehouse operations.',
                   },
                   {
-                    title: 'Efficient high-quality production with efficient decision-making',
+                    title:
+                      'Efficient high-quality production with efficient decision-making',
                     description:
                       'Our AI-powered <strong>Supply Chain Intelligence</strong> Solution lets you manage your entire supply chain operations on one centralized hub, allowing you to manage every aspect of your business from one integrated platform.',
                   },
@@ -104,9 +122,18 @@
             >
               <h2>Scale round-the-clock vigilance for your organization</h2>
               <p>
-                Experience always-on monitoring without physical limits when you equip your business with Lenovo Manufacturing Solutions :
+                Experience always-on monitoring without physical limits when you
+                equip your business with Lenovo Manufacturing Solutions :
               </p>
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Gain complete oversight over your production process</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Gain complete oversight over your production process
+              </h3>
               <TickList
                 :items="[
                   {
@@ -116,7 +143,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Optimize your operations, security and employee welfare</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Optimize your operations, security and employee welfare
+              </h3>
               <TickList
                 :items="[
                   {
@@ -142,11 +177,20 @@
               iconMobile="/images/mobile_warehouse-03-ani.gif"
               label="Work systems"
             >
-              <h2>Robot automation designed to collaborate seamlessly with a human workforce</h2>
+              <h2>
+                Robot automation designed to collaborate seamlessly with a human
+                workforce
+              </h2>
               <p>
-                Lenovo’s <strong>Pick Assist AMR (Autonomous Mobile Robots)</strong> utilizes the most advanced “order-to-person” collaborative mode, minimising human intervention whilst maximising efficiency within your warehouse operations.
+                Lenovo’s
+                <strong>Pick Assist AMR (Autonomous Mobile Robots)</strong>
+                utilizes the most advanced “order-to-person” collaborative mode,
+                minimising human intervention whilst maximising efficiency
+                within your warehouse operations.
               </p>
-              <h3 style="font-weight:800; margin-bottom:-0.3rem">Logistics powered by human and robot synergy</h3>
+              <h3 style="font-weight: 800; margin-bottom: -0.3rem">
+                Logistics powered by human and robot synergy
+              </h3>
               <TickList
                 :items="[
                   {
@@ -156,7 +200,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">50-80% reduction in labor costs</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                50-80% reduction in labor costs
+              </h3>
               <TickList
                 :items="[
                   {
@@ -166,7 +218,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Unparalleled flexibility</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Unparalleled flexibility
+              </h3>
               <TickList
                 :items="[
                   {
@@ -228,9 +288,20 @@
             >
               <h2>Customer loyalty made dynamic</h2>
               <p>
-                Customers need more reasons to shop with you than just “price”. Lenovo equips Retailers with the smarter technologies to transform the customer shopping experience and increase the customer loyalty.
+                Customers need more reasons to shop with you than just “price”.
+                Lenovo equips Retailers with the smarter technologies to
+                transform the customer shopping experience and increase the
+                customer loyalty.
               </p>
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Seamless integration of IoT devices and sensors</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Seamless integration of IoT devices and sensors
+              </h3>
               <TickList
                 :items="[
                   {
@@ -240,7 +311,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Deliver personalized experiences with your signage</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Deliver personalized experiences with your signage
+              </h3>
               <TickList
                 :items="[
                   {
@@ -250,7 +329,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Discover new ways to engage your customers</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Discover new ways to engage your customers
+              </h3>
               <TickList
                 :items="[
                   {
@@ -273,9 +360,19 @@
             >
               <h2>Customer and store insights right at your fingertips</h2>
               <p>
-                Arm your team with tools that provide quick access to product and inventory information to help them streamline store operations and provide more personalized customer experiences.
+                Arm your team with tools that provide quick access to product
+                and inventory information to help them streamline store
+                operations and provide more personalized customer experiences.
               </p>
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Mobile-first staff operations</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Mobile-first staff operations
+              </h3>
               <TickList
                 :items="[
                   {
@@ -285,7 +382,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Virtual reality tools for store operations planning</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Virtual reality tools for store operations planning
+              </h3>
               <TickList
                 :items="[
                   {
@@ -295,7 +400,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Manage store operations on one device</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Manage store operations on one device
+              </h3>
               <TickList
                 :items="[
                   {
@@ -318,9 +431,20 @@
             >
               <h2>Enhance your customer experience and prevent stock losses</h2>
               <p>
-                <strong>Lenovo Retail Solutions</strong> empower your stores with seamless customer experiences up to the checkout experience, ensuring a fast, easy, and secure purchase in every transaction.
+                <strong>Lenovo Retail Solutions</strong> empower your stores
+                with seamless customer experiences up to the checkout
+                experience, ensuring a fast, easy, and secure purchase in every
+                transaction.
               </p>
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">No more wait times</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                No more wait times
+              </h3>
               <TickList
                 :items="[
                   {
@@ -330,7 +454,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Mitigate risk and losses with AI</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Mitigate risk and losses with AI
+              </h3>
               <TickList
                 :items="[
                   {
@@ -340,7 +472,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Resolve issues intelligently and remotely</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Resolve issues intelligently and remotely
+              </h3>
               <TickList
                 :items="[
                   {
@@ -363,9 +503,18 @@
             >
               <h2>Retail made for the phygital age</h2>
               <p>
-                Enhance the customer experience right at the shelves with our digital signage solutions and functionalities.
+                Enhance the customer experience right at the shelves with our
+                digital signage solutions and functionalities.
               </p>
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Dynamic pricing on-the-go, at scale</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Dynamic pricing on-the-go, at scale
+              </h3>
               <TickList
                 :items="[
                   {
@@ -385,7 +534,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Mobile-first staff operations</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Mobile-first staff operations
+              </h3>
               <TickList
                 :items="[
                   {
@@ -406,11 +563,26 @@
               iconMobile="/images/mobile_warehouse-01-ani.gif"
               label="Food Waste"
             >
-              <h2>Harness the power of smart technology and AI to empower your store</h2>
+              <h2>
+                Harness the power of smart technology and AI to empower your
+                store
+              </h2>
               <p>
-                According to the UN, around one third of all food produced globally each year (or 1.3 billion tons) is wasted. Lenovo not only helps you reduce your food waste footprint in your operations, we help ensure you preserve the value of every product you produce and send to your stores.
+                According to the UN, around one third of all food produced
+                globally each year (or 1.3 billion tons) is wasted. Lenovo not
+                only helps you reduce your food waste footprint in your
+                operations, we help ensure you preserve the value of every
+                product you produce and send to your stores.
               </p>
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">End-to-end cold chain supply management</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                End-to-end cold chain supply management
+              </h3>
               <TickList
                 :items="[
                   {
@@ -420,7 +592,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Retail enhanced by customer and staff behavior</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Retail enhanced by customer and staff behavior
+              </h3>
               <TickList
                 :items="[
                   {
@@ -469,7 +649,7 @@
           baseImage="/images/office-2024.svg"
           v-if="store.floor === 3"
           description=""
-        > 
+        >
           <template v-slot:highlights>
             <Highlight
               id="highlight--3-1"
@@ -483,9 +663,20 @@
             >
               <h2>Setting the standard in security</h2>
               <p>
-                As your trusted partner, Lenovo builds security into our solutions from development through to delivery to protect your customer and company data, allowing you to focus on your business growth.
+                As your trusted partner, Lenovo builds security into our
+                solutions from development through to delivery to protect your
+                customer and company data, allowing you to focus on your
+                business growth.
               </p>
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Comprehensive monitoring and protection across all endpoints</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Comprehensive monitoring and protection across all endpoints
+              </h3>
               <TickList
                 :items="[
                   {
@@ -500,7 +691,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">With great power, comes even greater security</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                With great power, comes even greater security
+              </h3>
               <TickList
                 :items="[
                   {
@@ -510,7 +709,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Safeguard your customer, payment and company information</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Safeguard your customer, payment and company information
+              </h3>
               <TickList
                 :items="[
                   {
@@ -533,9 +740,20 @@
             >
               <h2>Innovate without limits with Lenovo TruScale</h2>
               <p>
-                Lenovo TruScale IaaS provides a cloud-like experience, allowing you to leverage the right solutions for your business, from the pocket to the Edge - All with on-premise security for control and peace of mind.
+                Lenovo TruScale IaaS provides a cloud-like experience, allowing
+                you to leverage the right solutions for your business, from the
+                pocket to the Edge - All with on-premise security for control
+                and peace of mind.
               </p>
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Build the vision that takes your business forward</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Build the vision that takes your business forward
+              </h3>
               <TickList
                 :items="[
                   {
@@ -550,7 +768,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Stay right sized, all the time</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Stay right sized, all the time
+              </h3>
               <TickList
                 :items="[
                   {
@@ -560,7 +786,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Accelerate performance, simplify management, optimize protection</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Accelerate performance, simplify management, optimize protection
+              </h3>
               <TickList
                 :items="[
                   {
@@ -588,9 +822,22 @@
             >
               <h2>Accelerate purposeful innovation everywhere</h2>
               <p>
-                With the right technology, employees are more empowered in their roles and can focus on meaningful work. With the right technology partner, so can IT leaders. Lenovo’s flexible, scalable, easy-to-deploy digital workplace solutions help accomplish your business goals while freeing up time for IT to focus on innovation and strategic priorities.
+                With the right technology, employees are more empowered in their
+                roles and can focus on meaningful work. With the right
+                technology partner, so can IT leaders. Lenovo’s flexible,
+                scalable, easy-to-deploy digital workplace solutions help
+                accomplish your business goals while freeing up time for IT to
+                focus on innovation and strategic priorities.
               </p>
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Unlock up to 50% improvement in time to employee productivity</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Unlock up to 50% improvement in time to employee productivity
+              </h3>
               <TickList
                 :items="[
                   {
@@ -600,7 +847,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Keep employees connected no matter where they’re working</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Keep employees connected no matter where they’re working
+              </h3>
               <TickList
                 :items="[
                   {
@@ -610,7 +865,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Stay productive no matter where you work</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Stay productive no matter where you work
+              </h3>
               <TickList
                 :items="[
                   {
@@ -633,9 +896,19 @@
             >
               <h2>The path to future-ready IT starts here</h2>
               <p>
-                Future proof your business with Lenovo consultancy and scalable hardware solutions that enable your business to grow while preventing downtime from getting between you and your customers.
+                Future proof your business with Lenovo consultancy and scalable
+                hardware solutions that enable your business to grow while
+                preventing downtime from getting between you and your customers.
               </p>
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Future proof your IT</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Future proof your IT
+              </h3>
               <TickList
                 :items="[
                   {
@@ -650,7 +923,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Scale your performance capabilities to meet any demand</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Scale your performance capabilities to meet any demand
+              </h3>
               <TickList
                 :items="[
                   {
@@ -660,7 +941,15 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">Run hot, stay cool, and save energy</h3>
+              <h3
+                style="
+                  font-weight: 800;
+                  margin-top: -0.1rem;
+                  margin-bottom: -0.1rem;
+                "
+              >
+                Run hot, stay cool, and save energy
+              </h3>
               <TickList
                 :items="[
                   {
@@ -719,7 +1008,6 @@
           v-if="store.floor === 4"
         >
           <template v-slot:highlights>
-                
             <VideoHighlightFloor4
               x="55"
               y="57"

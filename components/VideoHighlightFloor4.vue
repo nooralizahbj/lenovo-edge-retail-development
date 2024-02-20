@@ -8,11 +8,31 @@
       }"
       @click="showVideoModal = true"
     >
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-    <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" fill="#E1251B"/>
-    <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" stroke="#E1251B"/>
-    <path d="M8.33334 7.32618C8.33334 6.67874 8.33334 6.35502 8.46834 6.17657C8.58594 6.02111 8.76569 5.92491 8.96028 5.91329C9.18363 5.89995 9.45299 6.07952 9.99169 6.43866L17.0021 11.1122C17.4472 11.409 17.6697 11.5574 17.7473 11.7444C17.8151 11.9079 17.8151 12.0916 17.7473 12.2551C17.6697 12.4422 17.4472 12.5905 17.0021 12.8873L9.99169 17.5609C9.45299 17.92 9.18363 18.0996 8.96028 18.0862C8.76569 18.0746 8.58594 17.9784 8.46834 17.823C8.33334 17.6445 8.33334 17.3208 8.33334 16.6733V7.32618Z" fill="white" stroke="#E1251B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+      >
+        <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" fill="#E1251B" />
+        <rect
+          x="0.5"
+          y="0.5"
+          width="23"
+          height="23"
+          rx="11.5"
+          stroke="#E1251B"
+        />
+        <path
+          d="M8.33334 7.32618C8.33334 6.67874 8.33334 6.35502 8.46834 6.17657C8.58594 6.02111 8.76569 5.92491 8.96028 5.91329C9.18363 5.89995 9.45299 6.07952 9.99169 6.43866L17.0021 11.1122C17.4472 11.409 17.6697 11.5574 17.7473 11.7444C17.8151 11.9079 17.8151 12.0916 17.7473 12.2551C17.6697 12.4422 17.4472 12.5905 17.0021 12.8873L9.99169 17.5609C9.45299 17.92 9.18363 18.0996 8.96028 18.0862C8.76569 18.0746 8.58594 17.9784 8.46834 17.823C8.33334 17.6445 8.33334 17.3208 8.33334 16.6733V7.32618Z"
+          fill="white"
+          stroke="#E1251B"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
     </button>
   </Teleport>
   <Teleport to="body">
@@ -143,18 +163,18 @@ export default {
 }
 
 .modal {
-    display: block;
-    position: fixed;
-    z-index: 1;
-    padding-top: 10px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
-    z-index: 50;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-top: 10px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 50;
 }
 
 /* Modal Content */
@@ -207,5 +227,4 @@ button.highlight__vid-hotspot.highlight__hotspot--interactive::before {
   background-color: var(--deep-blue-2);
   color: #fff;
 }
-
 </style>

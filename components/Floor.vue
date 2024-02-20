@@ -6,210 +6,216 @@
       <aside class="floor__intro" v-if="store.floor === 1 && !store.highlight">
         <div class="floor__intro-container">
           <h1>
-            Create a future-proof organization of productivity and sustainability with Lenovo Manufacturing Solutions
+            Create a future-proof organization of productivity and
+            sustainability with Lenovo Manufacturing Solutions
           </h1>
           <TickList
-                :items="[
-                  {
-                    title: '',
-                    description: 'Reduce labor costs by up to 80% and scheduling time by up to 83%.',
-                  },
-                  {
-                    title: '',
-                    description:
-                      'Achieve up to 60% reduction indecision making time when it comes to leading your business to the future.',
-                  },
-                  {
-                    title: '',
-                    description:
-                      'Create an environmentally conscious supply chain for a more sustainable future with Lenovo’s range of sustainability-driven technology and solutions.',
-                  },
-                ]"
-              />
+            :items="[
+              {
+                title: '',
+                description:
+                  'Reduce labor costs by up to 80% and scheduling time by up to 83%.',
+              },
+              {
+                title: '',
+                description:
+                  'Achieve up to 60% reduction indecision making time when it comes to leading your business to the future.',
+              },
+              {
+                title: '',
+                description:
+                  'Create an environmentally conscious supply chain for a more sustainable future with Lenovo’s range of sustainability-driven technology and solutions.',
+              },
+            ]"
+          />
           <p>
-            Learn more about how Lenovo can help revolutionize your business by selecting an option below:
+            Learn more about how Lenovo can help revolutionize your business by
+            selecting an option below:
           </p>
           <TickListNumber
-                :items="[
-                  {
-                    page:'highlight--1-1',
-                    number: 'num1',
-                    title: 'Smarter technology makes a sustainable difference',
-                  },
-                  {
-                    page:'highlight--1-2',
-                    number: 'num2',
-                    title:
-                      'Robot automation designed to collaborate seamlessly with a human workforce',
-                  },
-                  {
-                    page:'highlight--1-3',
-                    number: 'num3',
-                    title:
-                      'Scale round-the-clock vigilance for your organization',
-                  },
-                  {
-                    page:'highlight--1-4',
-                    number: 'num4',
-                    title:
-                      'Centralize and automate supply chain management in one single hub',
-                  },
-                ]"
-              />
+            :items="[
+              {
+                page: 'highlight--1-1',
+                number: 'num1',
+                title: 'Smarter technology makes a sustainable difference',
+              },
+              {
+                page: 'highlight--1-2',
+                number: 'num2',
+                title:
+                  'Robot automation designed to collaborate seamlessly with a human workforce',
+              },
+              {
+                page: 'highlight--1-3',
+                number: 'num3',
+                title: 'Scale round-the-clock vigilance for your organization',
+              },
+              {
+                page: 'highlight--1-4',
+                number: 'num4',
+                title:
+                  'Centralize and automate supply chain management in one single hub',
+              },
+            ]"
+          />
         </div>
       </aside>
     </transition>
     <transition name="slide">
       <aside class="floor__intro" v-if="store.floor === 2 && !store.highlight">
         <div class="floor__intro-container">
-          <h1>
-            Transform your retail experience
-          </h1>
+          <h1>Transform your retail experience</h1>
           <TickList
-                :items="[
-                  {
-                    title: '',
-                    description: 'Lenovo Retail Solutions provide one-stop, unmatched, comprehensive solutions to retailers, designed to transform today’s retail experience and bring the future of retail to life.',
-                  },
-                  {
-                    title: '',
-                    description:
-                      'Streamline staff productivity by reducing repetitive manual tasks through store management tools and mobile devices.',
-                  },
-                  {
-                    title: '',
-                    description:
-                      'Deliver seamless shopping journeys and enhanced experiences to your customers.',
-                  },
-                ]"
-              />
+            :items="[
+              {
+                title: '',
+                description:
+                  'Lenovo Retail Solutions provide one-stop, unmatched, comprehensive solutions to retailers, designed to transform today’s retail experience and bring the future of retail to life.',
+              },
+              {
+                title: '',
+                description:
+                  'Streamline staff productivity by reducing repetitive manual tasks through store management tools and mobile devices.',
+              },
+              {
+                title: '',
+                description:
+                  'Deliver seamless shopping journeys and enhanced experiences to your customers.',
+              },
+            ]"
+          />
           <p>
-            Learn more about how Lenovo can help revolutionize your business by selecting an option below:
+            Learn more about how Lenovo can help revolutionize your business by
+            selecting an option below:
           </p>
           <TickListNumber
-                :items="[
-                  {
-                    page:'highlight--2-5',
-                    number: 'num1',
-                    title: 'Harness the power of smart technology and AI to empower your store',
-                  },
-                  {
-                    page:'highlight--2-3',
-                    number: 'num2',
-                    title:
-                      'Enhance your customer experience and prevent stock losses',
-                  },
-                  {
-                    page:'highlight--2-2',
-                    number: 'num3',
-                    title:
-                      'Customer and store insights right at your fingertips',
-                  },
-                  {
-                    page:'highlight--2-4',
-                    number: 'num4',
-                    title:
-                      'Retail made for the phygital age',
-                  },
-                  {
-                    page:'highlight--2-1',
-                    number: 'num5',
-                    title:
-                      'Customer loyalty made dynamic',
-                  },
-                ]"
-              />
+            :items="[
+              {
+                page: 'highlight--2-5',
+                number: 'num1',
+                title:
+                  'Harness the power of smart technology and AI to empower your store',
+              },
+              {
+                page: 'highlight--2-3',
+                number: 'num2',
+                title:
+                  'Enhance your customer experience and prevent stock losses',
+              },
+              {
+                page: 'highlight--2-2',
+                number: 'num3',
+                title: 'Customer and store insights right at your fingertips',
+              },
+              {
+                page: 'highlight--2-4',
+                number: 'num4',
+                title: 'Retail made for the phygital age',
+              },
+              {
+                page: 'highlight--2-1',
+                number: 'num5',
+                title: 'Customer loyalty made dynamic',
+              },
+            ]"
+          />
         </div>
       </aside>
     </transition>
     <transition name="slide">
       <aside class="floor__intro" v-if="store.floor === 3 && !store.highlight">
         <div class="floor__intro-container">
-          <h1>
-            Redefining the future of employee productivity
-          </h1>
+          <h1>Redefining the future of employee productivity</h1>
           <TickList
-                :items="[
-                  {
-                    title: '',
-                    description: 'Unlock up to 50% improvement in time to employee productivity.',
-                  },
-                  {
-                    title: '',
-                    description:
-                      'Comprehensive monitoring and protection, 24/7, 365 days a year.',
-                  },
-                  {
-                    title: '',
-                    description:
-                      'Scale your performance capabilities to meet any demand.',
-                  },
-                ]"
-              />
+            :items="[
+              {
+                title: '',
+                description:
+                  'Unlock up to 50% improvement in time to employee productivity.',
+              },
+              {
+                title: '',
+                description:
+                  'Comprehensive monitoring and protection, 24/7, 365 days a year.',
+              },
+              {
+                title: '',
+                description:
+                  'Scale your performance capabilities to meet any demand.',
+              },
+            ]"
+          />
           <p>
-            Learn more about how Lenovo can help revolutionize your business by selecting an option below:
+            Learn more about how Lenovo can help revolutionize your business by
+            selecting an option below:
           </p>
           <TickListNumber
-                :items="[
-                  {
-                    page:'highlight--3-3',
-                    number: 'num1',
-                    title: 'Accelerate purposeful innovation everywhere',
-                  },
-                  {
-                    page:'highlight--3-1',
-                    number: 'num2',
-                    title:
-                      'Setting the standard in security',
-                  },
-                  {
-                    page:'highlight--3-2',
-                    number: 'num3',
-                    title:
-                      'Innovate without limits with Lenovo TruScale',
-                  },
-                  {
-                    page:'highlight--3-4',
-                    number: 'num4',
-                    title:
-                      'The path to future-ready IT starts here',
-                  },
-                ]"
-              />
+            :items="[
+              {
+                page: 'highlight--3-3',
+                number: 'num1',
+                title: 'Accelerate purposeful innovation everywhere',
+              },
+              {
+                page: 'highlight--3-1',
+                number: 'num2',
+                title: 'Setting the standard in security',
+              },
+              {
+                page: 'highlight--3-2',
+                number: 'num3',
+                title: 'Innovate without limits with Lenovo TruScale',
+              },
+              {
+                page: 'highlight--3-4',
+                number: 'num4',
+                title: 'The path to future-ready IT starts here',
+              },
+            ]"
+          />
         </div>
       </aside>
     </transition>
     <transition>
       <aside class="floor__intro" v-if="store.floor === 4 && !store.highlight">
         <div class="floor__intro-container">
-              <h1>Enter the future of retail</h1>
-              <p>
-                <b style="font-weight: 900;">Lenovo Services for Retail</b> unifies the power of hardware, software and services to deliver an experience that’s ready for the future of retail. Growing with your business, our unified solution simplifies and smooths your evolution to a seamless shopping experience your customers trust, and love.
-              </p>
-              <TickListNew
-                :items="[
-                  {
-                    title: 'Deploy seamlessly without hassle',
-                    description: 'Simple access to customized technology from day 1, from onsite device deployment and data migration to testing support - allowing you to begin revolutionizing your retail business with minimal to no disruption.',
-                  },
-                  {
-                    title: 'Optimize your resources with our management solutions',
-                    description: 'Outsource your day-to-day management of your IT tasks and functions with onsite field services, asset inventory and management, flex pool management and many more - so that your business can focus on what matters.',
-                  },
-                  {
-                    title: 'Transform your IT experience',
-                    description: 'Keep your devices performing at peak efficiency and elevate employee productivity with Lenovo Premier Support suite, offering direct access to advanced technicians, 24x7x365 expedited support, escalation management, extended protection plans and AI-powered insights, all designed to help you achieve more and waste less.',
-                  },
-                  {
-                    title: 'Protect your business from digital threats',
-                    description: 'Defending your IT against tomorrow’s threats. From the factory, to supply, to the hands of your hybrid workforce.',
-                  },
-                  {
-                    title: 'Maximize your circularity',
-                    description: '<strong>Lenovo Asset Recovery Services</strong> provide packaging collection, data backup and wiping, and recycling and disposal services so that you can minimize product and e-waste.',
-                  },
-                ]"
-              />
+          <h1>Enter the future of retail</h1>
+          <p>
+            <b style="font-weight: 900">Lenovo Services for Retail</b> unifies
+            the power of hardware, software and services to deliver an
+            experience that’s ready for the future of retail. Growing with your
+            business, our unified solution simplifies and smooths your evolution
+            to a seamless shopping experience your customers trust, and love.
+          </p>
+          <TickListNew
+            :items="[
+              {
+                title: 'Deploy seamlessly without hassle',
+                description:
+                  'Simple access to customized technology from day 1, from onsite device deployment and data migration to testing support - allowing you to begin revolutionizing your retail business with minimal to no disruption.',
+              },
+              {
+                title: 'Optimize your resources with our management solutions',
+                description:
+                  'Outsource your day-to-day management of your IT tasks and functions with onsite field services, asset inventory and management, flex pool management and many more - so that your business can focus on what matters.',
+              },
+              {
+                title: 'Transform your IT experience',
+                description:
+                  'Keep your devices performing at peak efficiency and elevate employee productivity with Lenovo Premier Support suite, offering direct access to advanced technicians, 24x7x365 expedited support, escalation management, extended protection plans and AI-powered insights, all designed to help you achieve more and waste less.',
+              },
+              {
+                title: 'Protect your business from digital threats',
+                description:
+                  'Defending your IT against tomorrow’s threats. From the factory, to supply, to the hands of your hybrid workforce.',
+              },
+              {
+                title: 'Maximize your circularity',
+                description:
+                  '<strong>Lenovo Asset Recovery Services</strong> provide packaging collection, data backup and wiping, and recycling and disposal services so that you can minimize product and e-waste.',
+              },
+            ]"
+          />
         </div>
       </aside>
     </transition>
@@ -226,7 +232,12 @@
       >
         {{ floorControl }}
         <span class="floor__control-name">{{
-          ['Ground Floor', 'Store Front', 'Office Floor', 'Services For Retail'][floorControl - 1]
+          [
+            'Ground Floor',
+            'Store Front',
+            'Office Floor',
+            'Services For Retail',
+          ][floorControl - 1]
         }}</span>
       </button>
     </nav>
@@ -246,7 +257,12 @@
       </p>
     </div>
 
-    <div class="floor__image" ref="imageContainer" @click="clearHighlight" v-if="store.floor != 4">
+    <div
+      class="floor__image"
+      ref="imageContainer"
+      @click="clearHighlight"
+      v-if="store.floor != 4"
+    >
       <img
         :src="baseImage ?? `https://via.placeholder.com/1000`"
         alt="Floor image"
@@ -259,7 +275,12 @@
       ></div>
     </div>
 
-    <div class="floor__image_floor_4" ref="imageContainer" @click="clearHighlight" v-if="store.floor === 4">
+    <div
+      class="floor__image_floor_4"
+      ref="imageContainer"
+      @click="clearHighlight"
+      v-if="store.floor === 4"
+    >
       <img
         :src="baseImage ?? `https://via.placeholder.com/1000`"
         alt="Floor image"

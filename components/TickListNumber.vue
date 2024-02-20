@@ -1,12 +1,15 @@
 <template>
   <ul>
-    <li v-for="(item, index) in items" :key="index" v-bind:class="item.number"
-        :id="`hotspot-${item.page}`"
-        :tabindex="nonInteractive ? -1 : 0"
-        :data-selected="store.highlight === item.page"
-        @click.stop="select"
-        :aria-label="label"
-        :aria-hidden="nonInteractive ? true : false"
+    <li
+      v-for="(item, index) in items"
+      :key="index"
+      v-bind:class="item.number"
+      :id="`hotspot-${item.page}`"
+      :tabindex="nonInteractive ? -1 : 0"
+      :data-selected="store.highlight === item.page"
+      @click.stop="select"
+      :aria-label="label"
+      :aria-hidden="nonInteractive ? true : false"
     >
       <strong>{{ item.title }}</strong>
     </li>

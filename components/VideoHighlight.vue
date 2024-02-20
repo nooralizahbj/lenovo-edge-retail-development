@@ -155,18 +155,18 @@ export default {
 }
 
 .modal {
-    display: block;
-    position: fixed;
-    z-index: 1;
-    padding-top: 10px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
-    z-index: 50;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-top: 10px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 50;
 }
 
 /* Modal Content */
@@ -219,5 +219,4 @@ button.highlight__vid-hotspot.highlight__hotspot--interactive::before {
   background-color: var(--deep-blue-2);
   color: #fff;
 }
-
 </style>

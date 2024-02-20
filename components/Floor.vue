@@ -32,32 +32,30 @@
             Learn more about how Lenovo can help revolutionize your business by
             selecting an option below:
           </p>
-          <TickListNumber
-            :items="[
-              {
-                page: 'highlight--1-1',
-                number: 'num1',
-                title: 'Smarter technology makes a sustainable difference',
-              },
-              {
-                page: 'highlight--1-2',
-                number: 'num2',
-                title:
-                  'Robot automation designed to collaborate seamlessly with a human workforce',
-              },
-              {
-                page: 'highlight--1-3',
-                number: 'num3',
-                title: 'Scale round-the-clock vigilance for your organization',
-              },
-              {
-                page: 'highlight--1-4',
-                number: 'num4',
-                title:
-                  'Centralize and automate supply chain management in one single hub',
-              },
-            ]"
-          />
+          <HighlightList
+              id="highlight--1-1"
+              number="num1"
+              label="Smarter technology makes a sustainable difference"
+            >
+          </HighlightList>
+          <HighlightList
+              id="highlight--1-2"
+              number="num2"
+              label="Robot automation designed to collaborate seamlessly with a human workforce"
+            >
+          </HighlightList>
+          <HighlightList
+              id="highlight--1-3"
+              number="num3"
+              label="Scale round-the-clock vigilance for your organization"
+            >
+          </HighlightList>
+          <HighlightList
+              id="highlight--1-4"
+              number="num4"
+              label="Centralize and automate supply chain management in one single hub"
+            >
+          </HighlightList>
         </div>
       </aside>
     </transition>
@@ -88,37 +86,36 @@
             Learn more about how Lenovo can help revolutionize your business by
             selecting an option below:
           </p>
-          <TickListNumber
-            :items="[
-              {
-                page: 'highlight--2-5',
-                number: 'num1',
-                title:
-                  'Harness the power of smart technology and AI to empower your store',
-              },
-              {
-                page: 'highlight--2-3',
-                number: 'num2',
-                title:
-                  'Enhance your customer experience and prevent stock losses',
-              },
-              {
-                page: 'highlight--2-2',
-                number: 'num3',
-                title: 'Customer and store insights right at your fingertips',
-              },
-              {
-                page: 'highlight--2-4',
-                number: 'num4',
-                title: 'Retail made for the phygital age',
-              },
-              {
-                page: 'highlight--2-1',
-                number: 'num5',
-                title: 'Customer loyalty made dynamic',
-              },
-            ]"
-          />
+          <HighlightList
+              id="highlight--2-5"
+              number="num1"
+              label="Harness the power of smart technology and AI to empower your store"
+            >
+          </HighlightList>
+          <HighlightList
+              id="highlight--2-3"
+              number="num2"
+              label="Enhance your customer experience and prevent stock losses"
+            >
+          </HighlightList>
+          <HighlightList
+              id="highlight--2-2"
+              number="num3"
+              label="Customer and store insights right at your fingertips"
+            >
+          </HighlightList>
+          <HighlightList
+              id="highlight--2-4"
+              number="num4"
+              label="Retail made for the phygital age"
+            >
+          </HighlightList>
+          <HighlightList
+              id="highlight--2-1"
+              number="num5"
+              label="Customer loyalty made dynamic"
+            >
+          </HighlightList>
         </div>
       </aside>
     </transition>
@@ -149,30 +146,30 @@
             Learn more about how Lenovo can help revolutionize your business by
             selecting an option below:
           </p>
-          <TickListNumber
-            :items="[
-              {
-                page: 'highlight--3-3',
-                number: 'num1',
-                title: 'Accelerate purposeful innovation everywhere',
-              },
-              {
-                page: 'highlight--3-1',
-                number: 'num2',
-                title: 'Setting the standard in security',
-              },
-              {
-                page: 'highlight--3-2',
-                number: 'num3',
-                title: 'Innovate without limits with Lenovo TruScale',
-              },
-              {
-                page: 'highlight--3-4',
-                number: 'num4',
-                title: 'The path to future-ready IT starts here',
-              },
-            ]"
-          />
+          <HighlightList
+              id="highlight--3-3"
+              number="num1"
+              label="Accelerate purposeful innovation everywhere"
+            >
+          </HighlightList>
+          <HighlightList
+              id="highlight--3-1"
+              number="num2"
+              label="Setting the standard in security"
+            >
+          </HighlightList>
+          <HighlightList
+              id="highlight--3-2"
+              number="num3"
+              label="Innovate without limits with Lenovo TruScale"
+            >
+          </HighlightList>
+          <HighlightList
+              id="highlight--3-4"
+              number="num4"
+              label="The path to future-ready IT starts here"
+            >
+          </HighlightList>
         </div>
       </aside>
     </transition>

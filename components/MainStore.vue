@@ -156,7 +156,7 @@
                   },
                 ]"
               />
-              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">50-80% reduction on laborcosts</h3>
+              <h3 style="font-weight:800; margin-top: -0.1rem; margin-bottom:-0.1rem">50-80% reduction in labor costs</h3>
               <TickList
                 :items="[
                   {

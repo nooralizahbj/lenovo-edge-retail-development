@@ -30,39 +30,32 @@
                 future and stay ahead of the curve with Lenovo sustainability
                 solutions.
               </p>
-              <TickListVideo
-                :items="[
-                  {
-                    title: 'Reuse, refurbish & recycle',
-                    description:
-                      '<strong>Lenovo Asset Recovery Services</strong> Maximizes the reuse, recycling and/or disposal of end-of-life products, parts and waste to mitigate security concerns and maximize asset value, sustaining an environmentally conscious circular economy.',
-                    floor: 1,
-                    video: '/video/Lenovo Asset Recovery Services.mp4',
-                    poster: '#',
-                  },
-                  {
-                    title:
-                      'Manage the carbon footprint of your devices seamlessly',
-                    description:
-                      'Offset the estimated carbon emissions associated with new or existing Lenovo devices across your IT fleet with <strong>Lenovo CO2 Offset Services</strong> and support verified climate action projects around the world.',
-                    floor: 1,
-                    video: '/video/Lenovo C02 Offset Services (1080p).mp4',
-                    poster: '#',
-                    x: 0,
-                    y: 0,
-                  },
-                  {
-                    title:
-                      'Digitizing ESG data management across the value chain',
-                    description:
-                      '<strong>Lenovo ESG Navigator</strong> enables you to monitor key ESG metrics at manufacturing sites and delivers near-real-time insights on GHG emissions and energy use.',
-                    floor: 1,
-                    video: '/video/Lenovo ESG Navigator.mp4',
-                    poster: '#',
-                    x: 0,
-                    y: 0,
-                  },
-                ]"
+              <VideoHighlightNew
+                title="Reuse, refurbish & recycle"
+                description_1="<strong>Lenovo Asset Recovery Services</strong> Maximizes the reuse, recycling and/or disposal of end-of-life products, parts and waste to mitigate security concerns and maximize asset value, sustaining an environmentally conscious circular economy."
+                description_2=""
+                description_3=""
+                floor="1"
+                videoUrl="/video/Lenovo_Asset_Recovery_Services.mp4"
+                posterUrl="#"
+              />
+              <VideoHighlightNew
+                title="Manage the carbon footprint of your devices seamlessly"
+                description_1="Offset the estimated carbon emissions associated with new or existing Lenovo devices across your IT fleet with <strong>Lenovo CO2 Offset Services</strong> and support verified climate action projects around the world."
+                description_2=""
+                description_3=""
+                floor="1"
+                videoUrl="/video/Lenovo_C02_Offset_Services.mp4"
+                posterUrl="#"
+              />
+              <VideoHighlightNew
+                title="Digitizing ESG data management across the value chain"
+                description_1="<strong>Lenovo ESG Navigator</strong> enables you to monitor key ESG metrics at manufacturing sites and delivers near-real-time insights on GHG emissions and energy use."
+                description_2=""
+                description_3=""
+                floor="1"
+                videoUrl="/video/Lenovo_ESG_Navigator.mp4"
+                posterUrl="#"
               />
             </Highlight>
             <Highlight
@@ -436,23 +429,15 @@
                 experience, ensuring a fast, easy, and secure purchase in every
                 transaction.
               </p>
-              <h3
-                style="
-                  font-weight: 800;
-                  margin-top: -0.1rem;
-                  margin-bottom: -0.1rem;
-                "
-              >
-                No more wait times
-              </h3>
-              <TickList
-                :items="[
-                  {
-                    title: '',
-                    description:
-                      'Lenovo <strong>Self Service Kiosk (SSK)</strong> lets customers enjoy a fast and easy checkout experience while reducing customer dissatisfaction and labor costs.',
-                  },
-                ]"
+
+              <VideoHighlightNew
+                title="No more wait times"
+                description_1="Lenovo <strong>Self Service Kiosk (SSK)</strong> lets customers enjoy a fast and easy checkout experience while reducing customer dissatisfaction and labor costs."
+                description_2=""
+                description_3=""
+                floor="2"
+                videoUrl="/video/Lenovo_Retail_Solutions_NRF_2023_NYC.mp4"
+                posterUrl="#"
               />
               <h3
                 style="
@@ -506,51 +491,23 @@
                 Enhance the customer experience right at the shelves with our
                 digital signage solutions and functionalities.
               </p>
-              <h3
-                style="
-                  font-weight: 800;
-                  margin-top: -0.1rem;
-                  margin-bottom: -0.1rem;
-                "
-              >
-                Dynamic pricing on-the-go, at scale
-              </h3>
-              <TickList
-                :items="[
-                  {
-                    title: '',
-                    description:
-                      'Our <strong>Dynamic Pricing Solution</strong> lets you manage and update millions of <strong>Electronic Shelf Labels</strong> simultaneously, streamlining store operations by reducing repetitive manual work for your store staff.',
-                  },
-                  {
-                    title: '',
-                    description:
-                      'Easy integration with other backend databases and systems, providing you a wealth of data-driven insights and management options.',
-                  },
-                  {
-                    title: '',
-                    description:
-                      'Enable personalized experiences for your customers, such as “click & collect” shopping options and mobile loyalty program integrations.',
-                  },
-                ]"
+              <VideoHighlightNew
+                title="Dynamic pricing on-the-go, at scale"
+                description_1="Our <strong>Dynamic Pricing Solution</strong> lets you manage and update millions of <strong>Electronic Shelf Labels</strong> simultaneously, streamlining store operations by reducing repetitive manual work for your store staff."
+                description_2="Easy integration with other backend databases and systems, providing you a wealth of data-driven insights and management options."
+                description_3="Enable personalized experiences for your customers, such as “click & collect” shopping options and mobile loyalty program integrations."
+                floor="2"
+                videoUrl="/video/Lenovo-dynamic_Pricing_ESL_Subbed-04012024.mp4"
+                posterUrl="#"
               />
-              <h3
-                style="
-                  font-weight: 800;
-                  margin-top: -0.1rem;
-                  margin-bottom: -0.1rem;
-                "
-              >
-                Mobile-first staff operations
-              </h3>
-              <TickList
-                :items="[
-                  {
-                    title: '',
-                    description:
-                      'Through a seamless data flow from IOT devices to algorithm layers, Lenovo <strong>Digital Shelving</strong> provides you with valuable insights into your shelf displays and make data-driven decisions on display optimization, sales efficiency and personalized shopping experiences.',
-                  },
-                ]"
+              <VideoHighlightNew
+                title="Mobile-first staff operations"
+                description_1="Through a seamless data flow from IOT devices to algorithm layers, Lenovo <strong>Digital Shelving</strong> provides you with valuable insights into your shelf displays and make data-driven decisions on display optimization, sales efficiency and personalized shopping experiences."
+                description_2=""
+                description_3=""
+                floor="2"
+                videoUrl="/video/Lenovo_Digital_Shelving_Subbed-04012024.mp4"
+                posterUrl="#"
               />
             </Highlight>
             <Highlight
@@ -745,69 +702,32 @@
                 pocket to the Edge - All with on-premise security for control
                 and peace of mind.
               </p>
-              <h3
-                style="
-                  font-weight: 800;
-                  margin-top: -0.1rem;
-                  margin-bottom: -0.1rem;
-                "
-              >
-                Build the vision that takes your business forward
-              </h3>
-              <TickList
-                :items="[
-                  {
-                    title: '',
-                    description:
-                      '<strong>Lenovo TruScale for Edge and AI</strong> delivers the right data center as a service solution based on advanced metering technologies of your choice so you can embark on your digital transformation journey with minimal upfront investment.',
-                  },
-                  {
-                    title: '',
-                    description:
-                      'Take away the burden of day-to-day datacenter management, with full flexibility and faster time to market and respond to changing market opportunities with speed and agility.',
-                  },
-                ]"
+              <VideoHighlightNew
+                title="Build the vision that takes your business forward"
+                description_1="<strong>Lenovo TruScale for Edge and AI</strong> delivers the right data center as a service solution based on advanced metering technologies of your choice so you can embark on your digital transformation journey with minimal upfront investment."
+                description_2="Take away the burden of day-to-day datacenter management, with full flexibility and faster time to market and respond to changing market opportunities with speed and agility."
+                description_3=""
+                floor="3"
+                videoUrl="/video/Lenovo_TruScale_for_Edge_and_AI_Introduction.mp4"
+                posterUrl="#"
               />
-              <h3
-                style="
-                  font-weight: 800;
-                  margin-top: -0.1rem;
-                  margin-bottom: -0.1rem;
-                "
-              >
-                Stay right sized, all the time
-              </h3>
-              <TickList
-                :items="[
-                  {
-                    title: '',
-                    description:
-                      '<strong>Lenovo TruScale</strong> is flexible, cost-efficient, and scalable model that aligns infrastructure with your organization’s evolving demands, eliminating over-provisioning to ensure that you only pay for what you use.',
-                  },
-                ]"
+              <VideoHighlightNew
+                title="Stay right sized, all the time"
+                description_1="<strong>Lenovo TruScale</strong> is flexible, cost-efficient, and scalable model that aligns infrastructure with your organization’s evolving demands, eliminating over-provisioning to ensure that you only pay for what you use."
+                description_2=""
+                description_3=""
+                floor="3"
+                videoUrl="/video/Lenovo_Truscale_sustainability.mp4"
+                posterUrl="#"
               />
-              <h3
-                style="
-                  font-weight: 800;
-                  margin-top: -0.1rem;
-                  margin-bottom: -0.1rem;
-                "
-              >
-                Accelerate performance, simplify management, optimize protection
-              </h3>
-              <TickList
-                :items="[
-                  {
-                    title: '',
-                    description:
-                      '<strong>Lenovo TruScale</strong> Data management, HPC and Hybrid Cloud portfolios address unique challenges across customer workloads ranging from AI to analytics and data-intensive enterprise applications.',
-                  },
-                  {
-                    title: '',
-                    description:
-                      'Scale, accelerate, and protect data with new simplified designs and affordable consumption models that reduce risk and cost.',
-                  },
-                ]"
+              <VideoHighlightNew
+                title="Accelerate performance, simplify management, optimize protection"
+                description_1="<strong>Lenovo TruScale</strong> Data management, HPC and Hybrid Cloud portfolios address unique challenges across customer workloads ranging from AI to analytics and data-intensive enterprise applications."
+                description_2="Scale, accelerate, and protect data with new simplified designs and affordable consumption models that reduce risk and cost."
+                description_3=""
+                floor="3"
+                videoUrl="/video/Lenovo_Truscale_Data_Management.mp4"
+                posterUrl="#"
               />
             </Highlight>
             <Highlight
@@ -829,23 +749,14 @@
                 accomplish your business goals while freeing up time for IT to
                 focus on innovation and strategic priorities.
               </p>
-              <h3
-                style="
-                  font-weight: 800;
-                  margin-top: -0.1rem;
-                  margin-bottom: -0.1rem;
-                "
-              >
-                Unlock up to 50% improvement in time to employee productivity
-              </h3>
-              <TickList
-                :items="[
-                  {
-                    title: '',
-                    description:
-                      '<strong>Lenovo Digital Workplace Solutions</strong> transform your business with next generation technology, automation and tools that free up your IT Support teams and leverage external expertise to deliver business efficiency.',
-                  },
-                ]"
+              <VideoHighlightNew
+                title="Unlock up to 50% improvement in time to employee productivity"
+                description_1="<strong>Lenovo Digital Workplace Solutions</strong> transform your business with next generation technology, automation and tools that free up your IT Support teams and leverage external expertise to deliver business efficiency."
+                description_2=""
+                description_3=""
+                floor="3"
+                videoUrl="/video/Lenovo-DWS.mp4"
+                posterUrl="#"
               />
               <h3
                 style="

@@ -1,36 +1,61 @@
 <template>
-  <Teleport :to="`#floor--${floor}__highlights`">
-    <button
-      class="highlight__vid-hotspot highlight__hotspot--interactive"
-      @click="showVideoModal = true"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-      >
-        <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" fill="#E1251B" />
-        <rect
-          x="0.5"
-          y="0.5"
-          width="23"
-          height="23"
-          rx="11.5"
-          stroke="#E1251B"
-        />
-        <path
-          d="M8.33334 7.32618C8.33334 6.67874 8.33334 6.35502 8.46834 6.17657C8.58594 6.02111 8.76569 5.92491 8.96028 5.91329C9.18363 5.89995 9.45299 6.07952 9.99169 6.43866L17.0021 11.1122C17.4472 11.409 17.6697 11.5574 17.7473 11.7444C17.8151 11.9079 17.8151 12.0916 17.7473 12.2551C17.6697 12.4422 17.4472 12.5905 17.0021 12.8873L9.99169 17.5609C9.45299 17.92 9.18363 18.0996 8.96028 18.0862C8.76569 18.0746 8.58594 17.9784 8.46834 17.823C8.33334 17.6445 8.33334 17.3208 8.33334 16.6733V7.32618Z"
-          fill="white"
-          stroke="#E1251B"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-    </button>
-  </Teleport>
+  <ul class="video-list">
+    <div>
+      <div class="vertical-title">
+        <div>
+          <strong>{{ title }}</strong>
+        </div>
+        <div>
+          <button
+            class="highlight__vid-hotspot highlight__hotspot--interactive"
+            @click="showVideoModal = true"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <rect
+                x="0.5"
+                y="0.5"
+                width="23"
+                height="23"
+                rx="11.5"
+                fill="#E1251B"
+              />
+              <rect
+                x="0.5"
+                y="0.5"
+                width="23"
+                height="23"
+                rx="11.5"
+                stroke="#E1251B"
+              />
+              <path
+                d="M8.33334 7.32618C8.33334 6.67874 8.33334 6.35502 8.46834 6.17657C8.58594 6.02111 8.76569 5.92491 8.96028 5.91329C9.18363 5.89995 9.45299 6.07952 9.99169 6.43866L17.0021 11.1122C17.4472 11.409 17.6697 11.5574 17.7473 11.7444C17.8151 11.9079 17.8151 12.0916 17.7473 12.2551C17.6697 12.4422 17.4472 12.5905 17.0021 12.8873L9.99169 17.5609C9.45299 17.92 9.18363 18.0996 8.96028 18.0862C8.76569 18.0746 8.58594 17.9784 8.46834 17.823C8.33334 17.6445 8.33334 17.3208 8.33334 16.6733V7.32618Z"
+                fill="white"
+                stroke="#E1251B"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <li v-if="description_1 !== ''">
+        <span v-html="description_1"></span>
+      </li>
+      <li v-if="description_2 !== ''">
+        <span v-html="description_2"></span>
+      </li>
+      <li v-if="description_3 !== ''">
+        <span v-html="description_3"></span>
+      </li>
+    </div>
+  </ul>
   <Teleport to="body">
     <div class="modal" v-if="showVideoModal">
       <div class="modal-content">
@@ -52,6 +77,10 @@ import 'vue-plyr/dist/vue-plyr.css'
 <script>
 export default {
   props: {
+    title: String,
+    description_1: String,
+    description_2: String,
+    description_3: String,
     floor: Number,
     videoUrl: String,
     posterUrl: String,
@@ -66,15 +95,46 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.vertical-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.video-list {
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+  padding-left: 0;
+
+  div {
+    strong {
+      display: block;
+      font-size: 1.2rem;
+      font-weight: 900;
+      padding-bottom: 0.8rem;
+    }
+    li {
+      background: url('/images/tick.svg') top left no-repeat;
+      background-size: 2rem;
+      padding-left: 3rem;
+      min-height: 2rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+}
 .highlight {
   &__vid-hotspot {
+    // position: absolute;
+    transform: translate(-20%, -30%);
     background: none;
     border: 0;
     cursor: pointer;
     width: 3rem;
 
     &:not(.highlight__vid-hotspot--interactive) {
-      z-index: 10;
+      z-index: 1;
     }
 
     &[data-selected='true'] {

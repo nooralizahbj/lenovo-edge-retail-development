@@ -77,7 +77,7 @@
                   {
                     title: 'Streamlined warehouse management made for efficiency',
                     description:
-                      'Lenovo’s Warehouse Execution System is a unified data and command gateway between the <strong>Warehouse Management System (WMS)</strong> and the Warehouse Control System (WCS), providing a comprehensive and real-time overview of warehouse operations.',
+                      'Lenovo’s <strong>Warehouse Execution System</strong> is a unified data and command gateway between the Warehouse Management System (WMS) and the Warehouse Control System (WCS), providing a comprehensive and real-time overview of warehouse operations.',
                   },
                   {
                     title: 'Efficient high-quality production with efficient decision-making',
@@ -87,7 +87,7 @@
                   {
                     title: 'Proven and measurable supply chain optimization',
                     description:
-                      'When used together, our <strong>supply chain management</strong> solutions deliver multiple efficiency benefits: <br>- 60% reduction in decision making time <br>-20% cost reduction in manufacturing and logistics <br>-4.8% boost in revenue',
+                      'When used together, our <strong>Supply Chain Intelligence</strong> solutions deliver multiple efficiency benefits:<br>- 60% reduction in decision making time <br>-20% cost reduction in manufacturing and logistics <br>-4.8% boost in revenue',
                   },
                 ]"
               />
